@@ -1,0 +1,19 @@
+.color-display {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    margin: 50px;
+
+    .color-display-card {
+        flex: 1;
+        height: 600px;
+        display: grid;
+        place-items: center;
+        border-radius: 20px;
+
+        p {
+            color: var(--dark-color);
+            font-size: 2rem;
+        }
+    }
+}

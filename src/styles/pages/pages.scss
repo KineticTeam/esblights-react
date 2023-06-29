@@ -1,0 +1,12 @@
+@import 'home';
+@import 'about';
+@import 'contact';
+
+// Default scss for all pages
+h1 {
+    color: var(--light-color);
+}
+
+p {
+    color: var(--light-color);
+}

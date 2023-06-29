@@ -1,0 +1,80 @@
+:root {
+  --dark-color: #010a0e;
+  --light-color: #f1f1f1;
+  --rainbow-red: #f35c5c;
+  --rainbow-orange: #f36849;
+  --rainbow-yellow: #ffcb6b;
+  --rainbow-green: #99e550;
+  --rainbow-blue: #54c7ec;
+  --rainbow-purple: #a16ae8;
+  --rainbow-pink: #ff5991;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3vh 10vw 3vh 10vw;
+  background-color: var(--dark-color);
+}
+.header .logo h1 {
+  margin: 0px;
+  color: var(--light-color);
+}
+.header .nav-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.header .nav-bar .nav-links a {
+  margin: 0px;
+  color: var(--light-color);
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3vh 10vw 3vh 10vw;
+  background-color: var(--dark-color);
+  bottom: 0;
+}
+
+.color-display {
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+  margin: 50px;
+}
+.color-display .color-display-card {
+  flex: 1;
+  height: 600px;
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+}
+.color-display .color-display-card p {
+  color: var(--dark-color);
+  font-size: 2rem;
+}
+
+.home {
+  min-height: 100vh;
+}
+
+h1 {
+  color: var(--light-color);
+}
+
+p {
+  color: var(--light-color);
+}
+
+body {
+  background-color: var(--dark-color);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif, Helvetica, Arial, sans-serif !important;
+}
+
+/*# sourceMappingURL=global.css.map */

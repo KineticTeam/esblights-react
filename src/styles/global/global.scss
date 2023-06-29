@@ -1,0 +1,8 @@
+@import 'variables';
+@import '../components/components';
+@import '../pages/pages';
+
+body {
+    background-color: var(--dark-color);
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, Arial, sans-serif !important;
+}
