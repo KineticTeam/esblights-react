@@ -28,7 +28,7 @@ function Header() {
 
             <nav className="nav-bar">
                 <div className="nav-links">
-                    <Link to="=/">home</Link>
+                    <Link to="/">home</Link>
                 </div>
                 <div className="nav-links">
                     <Link to="/about">about</Link>
