@@ -1,7 +1,6 @@
 {
   "name": "empirestatebuildingcolors-react",
   "version": "0.1.0",
-  "homepage":"http://JordynLewi5.github.io/empirestatebuildingcolors-react",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
