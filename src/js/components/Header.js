@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
+import logo from 'js/../../public/white-icon.png';
 
 function Header() {
     const [scrollTop, setScrollTop] = useState(0);
@@ -23,18 +24,18 @@ function Header() {
             }}>
 
             <div className="logo">
-                <h1>empire state building colors</h1>
+                <img className="logo-img" src={logo} alt="Website Logo"/>
             </div>
 
             <nav className="nav-bar">
                 <div className="nav-links">
-                    <Link to="/">home</Link>
+                    <Link to="/">HOME</Link>
                 </div>
                 <div className="nav-links">
-                    <Link to="/about">about</Link>
+                    <Link to="/about">ABOUT</Link>
                 </div>
                 <div className="nav-links">
-                    <Link to="/contact">contact</Link>
+                    <Link to="/contact">CONTACT</Link>
                 </div>
             </nav>
         </header>

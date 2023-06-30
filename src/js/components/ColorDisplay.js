@@ -30,7 +30,7 @@ function ColorDisplay() {
             </div>
             <div className="color-information">
                 <div className="color-description">
-                    <h2>{content ? content[1] : "Loading"}</h2>
+                    <h2>{content ? content[1] : "..."}</h2>
                     <h3>{content ? content[0].toString() : ""}</h3>
                 </div>
             </div>

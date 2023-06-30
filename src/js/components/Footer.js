@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function Footer() {
     return (
         <footer className="footer">
@@ -11,11 +13,11 @@ function Footer() {
                 </div>
                 <div className="footer-stuff">
                     <div className="contact">
-                        {/* <a href="/contact/">contact us</a> */}
-                        {/* <span className="sep"> | </span> */}
-                        {/* <a href="/privacy-policy/">privacy policy</a> */}
+                        <Link to="/contact/">contact us</Link>
+                        <span className="sep"> | </span>
+                        <Link to="/disclaimer/">disclaimer</Link>
                     </div>
-                    <h1 className="site-name">empire state building colors</h1>
+                    {/* <h1 className="site-name">empire state building colors</h1> */}
                     <p className="copyright">&copy; <span id="current-year"></span> Jordyn Lewis</p>
                 </div>
             </div>

@@ -1,0 +1,11 @@
+.disclaimer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    p {
+        width: $page-width;
+        color: $dark-color;
+        line-height: 1.5em;
+    }
+}  
