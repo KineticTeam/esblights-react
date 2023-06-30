@@ -22,7 +22,8 @@
     "eject": "react-scripts eject",
     "sass-global": "sass src/styles/global/global.scss:src/styles/global/global.css",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "git-push": "addCommitPush.sh"
   },
   "eslintConfig": {
     "extends": [
