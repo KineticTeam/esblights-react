@@ -7,7 +7,7 @@
     width: 100vw;
     height: $header-height;
     background-color: $dark-color;
-    box-shadow: 0 0px 10px lighten($dark-color, 20%);
+    box-shadow: 0 0px 15px lighten($dark-color, 30%);
     transition: opacity 0.3s ease, height 0.3s ease;
 
     .logo {
@@ -27,10 +27,5 @@
         display: flex;
         flex-direction: row;
         gap: 20px;
-    }
-
-    .nav-bar .nav-links a {
-        margin: 0px;
-        color: $light-color;
     }
 }

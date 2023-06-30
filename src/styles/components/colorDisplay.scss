@@ -2,10 +2,10 @@
     background-color: $light-color;
     width: $color-display-width;
     margin: 10vh 0;
-    border: 1px solid lighten($light-color, 2%);
+    border: 1px solid lighten($light-color, 0%);
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: -10px -10px 10px #ffffffb3, 
+    box-shadow: -10px -10px 15px #ffffffb3, 
     10px 10px 15px #00000021;
     height: $color-display-height;
 
@@ -14,7 +14,7 @@
         flex-direction: row;
         align-items: center;
         height: $color-display-height * calc(2/3);
-        overflow: hidden;
+        overflow-x: scroll;
         gap: 0;
 
         .color-display-card {
@@ -29,6 +29,10 @@
                 background-color: $dark-color;
                 padding: 3px 15px;
                 border-radius: 100px;
+            }
+
+            h3 {
+                overflow-wrap: normal;
             }
         }
     }

@@ -20,7 +20,7 @@ function Header() {
     return (
         <header className="header" style={{
                 opacity: (scrollTop > 100 ? 0.4 : 1 ), 
-                height: (scrollTop > 100 ? "5em" : "10em" )
+                height: (scrollTop > 100 ? "5em" : "9em" )
             }}>
 
             <div className="logo">

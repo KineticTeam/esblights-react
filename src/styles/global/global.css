@@ -7,7 +7,7 @@
   width: 100vw;
   height: 15vh;
   background-color: #0b0b0b;
-  box-shadow: 0 0px 10px #3e3e3e;
+  box-shadow: 0 0px 15px #585858;
   transition: opacity 0.3s ease, height 0.3s ease;
 }
 .header .logo h1 {
@@ -22,10 +22,6 @@
   display: flex;
   flex-direction: row;
   gap: 20px;
-}
-.header .nav-bar .nav-links a {
-  margin: 0px;
-  color: #f5f5f5;
 }
 
 .footer {
@@ -82,10 +78,10 @@ a:hover {
   background-color: #f5f5f5;
   width: 70%;
   margin: 10vh 0;
-  border: 1px solid #fafafa;
+  border: 1px solid whitesmoke;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: -10px -10px 10px rgba(255, 255, 255, 0.7019607843), 10px 10px 15px rgba(0, 0, 0, 0.1294117647);
+  box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.7019607843), 10px 10px 15px rgba(0, 0, 0, 0.1294117647);
   height: 600px;
 }
 .color-section .color-display {
@@ -93,7 +89,7 @@ a:hover {
   flex-direction: row;
   align-items: center;
   height: 400px;
-  overflow: hidden;
+  overflow-x: scroll;
   gap: 0;
 }
 .color-section .color-display .color-display-card {
@@ -108,6 +104,9 @@ a:hover {
   background-color: #0b0b0b;
   padding: 3px 15px;
   border-radius: 100px;
+}
+.color-section .color-display .color-display-card h3 {
+  overflow-wrap: normal;
 }
 .color-section .color-information {
   display: flex;
@@ -201,6 +200,38 @@ body {
   margin: 0;
   background-color: #e8e8e8;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif, Helvetica, Arial, sans-serif !important;
+}
+
+a {
+  margin: 0px;
+  color: #f5f5f5;
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: #ffcb6b;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  padding: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #151519;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: gainsboro;
+  transition: background-color 0.2s ease;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ffefd1;
 }
 
 /*# sourceMappingURL=global.css.map */
