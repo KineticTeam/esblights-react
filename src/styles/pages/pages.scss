@@ -3,6 +3,10 @@
 @import 'contact';
 
 // Default scss for all pages
+.page-top-padding {
+    padding-top: $header-height
+}
+
 h1 {
     color: $light-color;
 }

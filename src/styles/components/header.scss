@@ -1,9 +1,11 @@
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 5vh 10vw 5vh 10vw;
+    position: fixed;
+    width: 100vw;
+    height: $header-height;
     background-color: $dark-color;
     box-shadow: 0 0px 10px lighten($dark-color, 20%);
 
