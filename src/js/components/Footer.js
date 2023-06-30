@@ -17,7 +17,7 @@ function Footer() {
                         <span className="sep"> | </span>
                         <Link to="/disclaimer/">disclaimer</Link>
                     </div>
-                    {/* <h1 className="site-name">empire state building colors</h1> */}
+                    {/* <h1 className="site-name">empire state building lights</h1> */}
                     <p className="copyright">&copy; <span id="current-year"></span> Jordyn Lewis</p>
                 </div>
             </div>
