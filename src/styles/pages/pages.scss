@@ -7,6 +7,10 @@
     padding-top: $header-height
 }
 
+.page-min-height {
+    min-height: 90vh - $header-height;
+}
+
 h1 {
     color: $light-color;
 }

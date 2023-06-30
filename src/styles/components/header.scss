@@ -8,6 +8,7 @@
     height: $header-height;
     background-color: $dark-color;
     box-shadow: 0 0px 10px lighten($dark-color, 20%);
+    transition: opacity 0.3s ease, height 0.3s ease;
 
     .logo h1 {
         margin: 0px;
