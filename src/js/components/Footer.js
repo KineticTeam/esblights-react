@@ -16,7 +16,7 @@ function Footer() {
                         {/* <a href="/privacy-policy/">privacy policy</a> */}
                     </div>
                     <h1 className="site-name">empire state building colors</h1>
-                    <p className="copyright">&copy; <span id="current-year"></span> rowing guide</p>
+                    <p className="copyright">&copy; <span id="current-year"></span> Jordyn Lewis</p>
                 </div>
             </div>
         </footer>
