@@ -1,11 +1,17 @@
-:root {
-    --dark-color: #010a0e;
-    --light-color: #f1f1f1;
-    --rainbow-red: #f35c5c;
-    --rainbow-orange: #f36849;
-    --rainbow-yellow: #ffcb6b;
-    --rainbow-green: #99e550;
-    --rainbow-blue: #54c7ec;
-    --rainbow-purple: #a16ae8;
-    --rainbow-pink: #ff5991;
-}
+$dark-color: #0b0b0b;
+$light-color: #e1e1e1;
+$rainbow-red: #f35c5c;
+$rainbow-orange: #f36849;
+$rainbow-yellow: #ffcb6b;
+$rainbow-green: #99e550;
+$rainbow-blue: #54c7ec;
+$rainbow-purple: #a16ae8;
+$rainbow-pink: #ff5991;
+$darkened-rainbow-red: darken($rainbow-red, 55%);
+$darkened-rainbow-orange: darken($rainbow-orange, 55%);
+$darkened-rainbow-yellow: darken($rainbow-yellow, 55%);
+$darkened-rainbow-green: darken($rainbow-green, 55%);
+$darkened-rainbow-blue: darken($rainbow-blue, 55%);
+$darkened-rainbow-purple: darken($rainbow-purple, 55%);
+$darkened-rainbow-pink: darken($rainbow-pink, 55%);
+$white: #ffffff;

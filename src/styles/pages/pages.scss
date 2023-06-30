@@ -4,9 +4,17 @@
 
 // Default scss for all pages
 h1 {
-    color: var(--light-color);
+    color: $light-color;
+}
+
+h2 {
+    color: $light-color;
+}
+
+h3 {
+    color: $light-color;
 }
 
 p {
-    color: var(--light-color);
+    color: $light-color;
 }

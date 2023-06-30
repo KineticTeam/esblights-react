@@ -3,6 +3,6 @@
 @import '../pages/pages';
 
 body {
-    background-color: var(--dark-color);
+    background-color: darken($light-color, 5%);
     font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, Arial, sans-serif !important;
 }

@@ -1,9 +1,47 @@
 .footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    padding: 3vh 10vw 3vh 10vw;
-    background-color: var(--dark-color);
     bottom: 0;
+    width: 100%;
+    background-color: $dark-color;
+    padding: 50px 0;
+
+    .footer-row {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+
+        .footer-stuff {
+            .copyright {
+                margin: 0;
+            }
+        }
+
+        .socials-footer-stuff {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            width: 20vw;
+
+            .socials {
+              display: flex;
+              flex-direction: row;
+              gap: 40px;
+            }
+        }
+    }
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+        color: white;
+        filter: brightness(.8);
+    }
 }
