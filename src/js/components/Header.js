@@ -28,13 +28,13 @@ function Header() {
 
             <nav className="nav-bar">
                 <div className="nav-links">
-                    <Link to="/empirestatebuildingcolors-react/">home</Link>
+                    <Link to="=/">home</Link>
                 </div>
                 <div className="nav-links">
-                    <Link to="/empirestatebuildingcolors-react/about">about</Link>
+                    <Link to="/about">about</Link>
                 </div>
                 <div className="nav-links">
-                    <Link to="/empirestatebuildingcolors-react/contact">contact</Link>
+                    <Link to="/contact">contact</Link>
                 </div>
             </nav>
         </header>

@@ -10,9 +10,9 @@ function App() {
     <div className="app">
       <Header />
       <Routes>
-        <Route exact path="/empirestatebuildingcolors-react/" element={<Home />} />
-        <Route exact path="/empirestatebuildingcolors-react/about" element={<About />} />
-        <Route exact path="/empirestatebuildingcolors-react/contact" element={<Contact />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>
