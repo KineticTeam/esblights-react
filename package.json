@@ -11,6 +11,7 @@
     "react-router-dom": "^6.14.0",
     "react-scripts": "5.0.1",
     "sass": "^1.63.6",
+    "tinycolor2": "^1.6.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -18,7 +19,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sass-global": "sass src/styles/global/global.scss:src/styles/global/global.css"
+    "sass-global": "sass src/styles/global/global.scss:src/styles/global/global.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -37,5 +40,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "homepage":"http://JordynLewi5.github.io/empirestatebuildingcolors-react"
 }

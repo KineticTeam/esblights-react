@@ -1,6 +1,6 @@
 function Contact() {
     return (
-        <div className="contact">
+        <div className="contact-page page-top-padding">
         </div>
     )
 }

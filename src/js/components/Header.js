@@ -2,18 +2,18 @@ function Header() {
     return (
         <header className="header">
             <div className="logo">
-                <h1>Empire State Building Colors</h1>
+                <h1>empire state building colors</h1>
             </div>
 
             <nav className="nav-bar">
                 <div className="nav-links">
-                    <a href="/">Home</a>
+                    <a href="/">home</a>
                 </div>
                 <div className="nav-links">
-                    <a href="/about">About</a>
+                    <a href="/about">about</a>
                 </div>
                 <div className="nav-links">
-                    <a href="/contact">Contact</a>
+                    <a href="/contact">contact</a>
                 </div>
             </nav>
         </header>

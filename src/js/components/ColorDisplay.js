@@ -6,7 +6,7 @@ function ColorDisplay() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('http://localhost:4000/api/esb-hex-codes');
+                const response = await fetch('http://192.168.123.196:4000/api/esb-color-info');
                 const data = await response.json();
                 console.log(data);
                 setContent(data.content);
@@ -20,17 +20,18 @@ function ColorDisplay() {
     return (
         <div className="color-section">
             <div className="color-display">
-                {content ? (content.map((color, index) => (
+                {content ? (content[0].map((color, index) => (
                     <div key={index} className="color-display-card" style={{ background: color }}>
-                        <p className="display-hex-code">{color}</p>
+                        <h2 className="display-hex-code">{color}</h2>
                     </div>
                 ))) : (
-                    <p>Loading...</p>
+                    ""
                 )}
             </div>
             <div className="color-information">
-                <div className="">
-
+                <div className="color-description">
+                    <h2>{content ? content[1] : "Loading"}</h2>
+                    <h3>{content ? content[0].toString() : ""}</h3>
                 </div>
             </div>
         </div>

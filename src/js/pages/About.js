@@ -1,6 +1,6 @@
 function About() {
     return (
-        <div className="about">
+        <div className="about page-top-padding">
         </div>
     )
 }
