@@ -108,9 +108,11 @@ a:hover {
   background-color: #0b0b0b;
   padding: 3px 15px;
   border-radius: 100px;
+  text-align: center;
 }
 .color-section .color-display .color-display-card h3 {
   overflow-wrap: normal;
+  text-align: center;
 }
 .color-section .color-information {
   display: flex;
@@ -128,10 +130,12 @@ a:hover {
 .color-section .color-information .color-description h2 {
   color: #0b0b0b;
   font-size: 2rem;
+  text-align: center;
 }
 .color-section .color-information .color-description h3 {
   color: #0b0b0b;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 @media (max-width: 1200px) {

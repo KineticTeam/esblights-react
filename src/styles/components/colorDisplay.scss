@@ -29,10 +29,12 @@
                 background-color: $dark-color;
                 padding: 3px 15px;
                 border-radius: 100px;
+                text-align: center;
             }
 
             h3 {
                 overflow-wrap: normal;
+                text-align: center;
             }
         }
     }
@@ -53,11 +55,14 @@
             h2 {
                 color: $dark-color;
                 font-size: 2rem;
+                text-align: center;
             }
             
             h3 {
                 color: $dark-color;
                 font-size: 1.5rem;
+                text-align: center;
+
             }
         }
     }
