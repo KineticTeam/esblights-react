@@ -63,7 +63,7 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
     .color-section {
         width: 90vw;
 
@@ -79,21 +79,13 @@
 }
 
 
-@media screen and (max-width: 767px) {
-    .color-section {
-        width: 90vw;
+@media (max-width: 767px) {
 
-        .color-display {
-        
-            .color-display-card {
-                h2 {
-                    font-size: 1rem;
-                }
-
-                h3 {
-                    font-size: 0.8rem;
-                }
-            }
-        }
+    h2 {
+        font-size: 1rem;
     }
+
+    h3 {
+        font-size: 0.8rem;
+    }    
 }
