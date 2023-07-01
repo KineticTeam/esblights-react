@@ -25,8 +25,7 @@
 
 @media (max-width: 1000px) {
   .header .logo .logo-img {
-    height: 2em;
-    width: auto;
+    height: 2em !important;
   }
 }
 .footer {
