@@ -192,7 +192,8 @@ a:hover {
 
 .page-top-padding {
   padding-top: 15vh;
-  padding: 0 10vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 .page-min-height {
