@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import github_icon from 'js/../../public/github-icon-white-6.jpg';
 
 function Footer() {
     return (
@@ -7,7 +8,7 @@ function Footer() {
                 <div className="socials-footer-stuff">
                     <div className="socials">
                         <a href="https://www.github.com/JordynLewi5" target="_blank">
-                            <img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" style={{width:70}} className="github-icon" />
+                            <img src={github_icon} style={{width:70}} className="github-icon" />
                         </a>
                     </div>
                 </div>
