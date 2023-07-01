@@ -1,8 +1,8 @@
 .color-section {
-    background-color: $light-color;
+    background-color: $dark-color;
     width: $color-display-width;
     margin: 10vh 0;
-    border: 1px solid lighten($light-color, 0%);
+    border: 1px solid lighten($dark-color, 0%);
     border-radius: 10px;
     overflow: hidden;
     box-shadow: -10px -10px 15px #ffffffb3, 
@@ -53,13 +53,13 @@
             justify-content: center;
 
             h2 {
-                color: $dark-color;
+                color: $light-color;
                 font-size: 2rem;
                 text-align: center;
             }
             
             h3 {
-                color: $dark-color;
+                color: $light-color;
                 font-size: 1.5rem;
                 text-align: center;
 
