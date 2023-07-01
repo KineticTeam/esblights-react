@@ -24,6 +24,12 @@
   gap: 20px;
 }
 
+@media (max-width: 767px) {
+  .logo .logo-img {
+    height: 2em;
+    width: auto;
+  }
+}
 .footer {
   display: flex;
   flex-direction: row;
@@ -130,7 +136,7 @@ a:hover {
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .color-section {
     width: 90vw;
   }
@@ -138,12 +144,12 @@ a:hover {
     font-size: 1.5rem;
   }
 }
-@media screen and (max-width: 1200px) {
-  .color-section {
-    width: 90vw;
+@media (max-width: 767px) {
+  h2 {
+    font-size: 1rem !important;
   }
-  .color-section .color-display .color-display-card h2 {
-    font-size: 1.5rem;
+  h3 {
+    font-size: 0.8rem !important;
   }
 }
 .home {
@@ -199,7 +205,8 @@ p {
 body {
   margin: 0;
   background-color: #e8e8e8;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif, Helvetica, Arial, sans-serif !important;
+  font-family: "Century Gothic", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif, Helvetica, Arial, sans-serif !important;
+  font-weight: lighter;
 }
 
 a {
