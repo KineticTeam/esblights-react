@@ -89,3 +89,13 @@
         font-size: 0.8rem !important;
     }    
 }
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: .8rem !important;
+    }
+
+    h3 {
+        font-size: 0.6rem !important;
+    }    
+}
