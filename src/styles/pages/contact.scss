@@ -1,4 +1,60 @@
-.contact-page {
+.contact-page form {
     display: flex;
-    justify-content: center;
-}  
+    flex-direction: column;
+    gap: 30px;
+  
+    .contact-header {
+      color: $light-color;
+    }
+  
+    #name,
+    #email,
+    #subject {
+        width: 400px;
+        height: 30px;
+        font-size: 1em;
+        border-radius: 100px;
+        // padding-left: 10px;
+        text-align: center;
+
+    }
+  
+    #message {
+        padding: 10px;
+        width: 100%;
+        height: 120px;
+        font-size: 1em;
+        min-width: 400px;
+        border-radius: 10px;
+    }
+  
+    #submit {
+        width: 200px;
+        border-radius: 100px;
+        border-color: none;
+        background-color: $rainbow-yellow;
+        border-style: none;
+        color: $dark-color;
+        padding: 10px;
+        font-size: 1em;
+        transition: background-color 0.2s ease, color 0.2s ease;
+
+        &:hover {
+            background-color: darken($rainbow-yellow, 10%);
+            color: $light-color;
+        }
+
+        &:active {
+            background-color: var(--secondary-gold-dark);
+            color: var(--primary-black);
+        }
+    }
+
+    input,
+    textarea {
+        border-radius: 3px;
+        border-style: none;
+        padding: 5px;
+        font-family: inherit;
+    }
+}

@@ -1,5 +1,35 @@
 function Contact() {
-
+    function submitForm(e) {
+        e.preventDefault();
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const subject = document.getElementById('subject').value;
+        const message = document.getElementById('message').value;
+        const url = 'https://script.google.com/macros/s/AKfycbxEUZQVW6ZJ0q6U5hF0sYV2qQ4n5r6Qx5d2hQq4/exec';
+        fetch(url, {
+            method: 'POST',
+            mode: 'no-cors',
+            cache: 'no-cache',
+            headers: { 'Content-Type': 'application/json' },
+            redirect: 'follow',
+            body: JSON.stringify({
+                name: name,
+                email: email,
+                subject: subject,
+                message: message
+            })
+        }).then((response) => {
+            if (response.status === 200) {
+                alert('Message sent successfully!');
+                document.getElementById('name').value = '';
+                document.getElementById('email').value = '';
+                document.getElementById('subject').value = '';
+                document.getElementById('message').value = '';
+            } else {
+                alert('Message failed to send.');
+            }
+        })
+    }
 
     return (
         <div className="contact-page page-top-padding page-min-height">
