@@ -29,3 +29,12 @@
         gap: 20px;
     }
 }
+
+@media (max-width: 767px) {
+    .logo {
+        .logo-img {
+            height: 2em;
+            width: auto;
+        }
+    }
+}
