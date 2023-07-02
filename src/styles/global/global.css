@@ -26,6 +26,10 @@
 }
 .header .nav-bar .nav-links a {
   font-size: 0.9em;
+  color: #f5f5f5;
+}
+.header .nav-bar .nav-links:hover a {
+  color: #ffcb6b;
 }
 
 @media (max-width: 1000px) {
@@ -277,7 +281,6 @@ body {
 
 a {
   margin: 0px;
-  color: #f5f5f5;
   transition: color 0.2s ease;
 }
 a:hover {
