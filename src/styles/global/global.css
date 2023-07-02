@@ -89,7 +89,7 @@ a:hover {
   margin: 10vh 0;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: -10px -10px 15px hsla(0, 0%, 100%, 0.037), 10px 10px 15px hsla(0, 0%, 0%, 0.516);
+  box-shadow: -10px -10px 20px hsla(0, 0%, 100%, 0.037), 10px 10px 20px hsla(0, 0%, 0%, 0.516);
   height: 500px;
 }
 .color-section .color-display {
