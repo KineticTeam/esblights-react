@@ -24,6 +24,11 @@
         gap: 20px;
 
         .nav-links {
+            box-shadow: inset -2px -2px 2px hsla(0, 0%, 100%, 0.027), 
+            inset 3px 3px 3px hsla(0, 0%, 0%, 0.34);
+            padding: 9px 14px;
+            border-radius: 100px;
+
             a {
                 font-size: 0.9em;
             }
