@@ -193,20 +193,35 @@ a:hover {
 }
 .contact-page form #name,
 .contact-page form #email,
-.contact-page form #subject {
+.contact-page form #subject,
+.contact-page form #message {
   width: 400px;
+  min-width: 400px;
+  max-width: 400px;
   height: 30px;
+  min-height: 30px;
+  max-height: 300px;
   font-size: 1em;
-  border-radius: 100px;
+  border-radius: 30px;
+  padding: 10px;
   text-align: center;
+  padding-right: -10px;
+}
+.contact-page form #name ::-webkit-scrollbar-track,
+.contact-page form #email ::-webkit-scrollbar-track,
+.contact-page form #subject ::-webkit-scrollbar-track,
+.contact-page form #message ::-webkit-scrollbar-track {
+  opacity: 0.1;
+}
+.contact-page form #name ::-webkit-scrollbar-corner,
+.contact-page form #email ::-webkit-scrollbar-corner,
+.contact-page form #subject ::-webkit-scrollbar-corner,
+.contact-page form #message ::-webkit-scrollbar-corner {
+  background-color: none;
+  opacity: 0.1;
 }
 .contact-page form #message {
-  padding: 10px;
-  width: 100%;
-  height: 120px;
-  font-size: 1em;
-  min-width: 400px;
-  border-radius: 10px;
+  height: 90px;
 }
 .contact-page form #submit {
   width: 200px;
@@ -296,7 +311,7 @@ a:hover {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #151519;
+  opacity: 0;
 }
 
 /* Handle */
