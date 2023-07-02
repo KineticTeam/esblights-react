@@ -6,7 +6,7 @@ function About() {
                 <p>
                     This website was created to display the hex code color scheme for the lights
                     on the Empire State Building. The color description that the 
-                    <a href="https://esbnyc.com" target="__">Official Empire State Building</a>
+                     <a href="https://esbnyc.com" target="__">Official Empire State Building</a> 
                     website provides is quite verbose and doesn't actually provide any hex codes.
                 </p>
                 <p>
