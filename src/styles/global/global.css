@@ -204,7 +204,6 @@ a:hover {
   font-size: 1em;
   border-radius: 30px;
   padding: 10px;
-  text-align: center;
   padding-right: -10px;
 }
 .contact-page form #name ::-webkit-scrollbar-track,

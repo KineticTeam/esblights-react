@@ -23,9 +23,9 @@ function Header() {
                 height: (scrollTop > 100 ? "5em" : "9em" )
             }}>
 
-            <div className="logo">
+            <Link to="/" className="logo">
                 <img className="logo-img" src={logo} alt="Website Logo"/>
-            </div>
+            </Link>
 
             <nav className="nav-bar">
                 <div className="nav-links">
