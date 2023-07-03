@@ -10,7 +10,7 @@ function ColorDisplay() {
                 const data = await response.json();
                 setContent(data.content);
             } catch (error) {
-                console.log('Error:', error);
+                // console.log('Error:', error);
             }
         };
         fetchData();
