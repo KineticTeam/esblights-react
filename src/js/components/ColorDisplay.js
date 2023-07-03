@@ -8,7 +8,6 @@ function ColorDisplay() {
             try {
                 const response = await fetch('https://thawing-depths-53334-e979c81783da.herokuapp.com/api/esb-color-info');
                 const data = await response.json();
-                console.log(data);
                 setContent(data.content);
             } catch (error) {
                 console.log('Error:', error);
