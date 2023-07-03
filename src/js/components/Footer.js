@@ -7,7 +7,7 @@ function Footer() {
             <div className="footer-row"> 
                 <div className="socials-footer-stuff">
                     <div className="socials">
-                        <a href="https://www.github.com/JordynLewi5" target="_blank">
+                        <a href="https://www.github.com/JordynLewi5" alt="GitHub Logo" target="_blank">
                             <img src={github_icon} style={{width:70}} className="github-icon" />
                         </a>
                     </div>
