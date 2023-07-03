@@ -23,19 +23,19 @@ function Header() {
                 height: (scrollTop > 100 ? "5em" : "9em" )
             }}>
 
-            <Link to="/" className="logo">
+            <Link to="/" rel="noreferrer" className="logo">
                 <img className="logo-img" src={logo} alt="Website Logo"/>
             </Link>
 
             <nav className="nav-bar">
                 <div className="nav-links">
-                    <Link to="/">HOME</Link>
+                    <Link to="/" rel="noreferrer">HOME</Link>
                 </div>
                 <div className="nav-links">
-                    <Link to="/about">ABOUT</Link>
+                    <Link to="/about" rel="noreferrer">ABOUT</Link>
                 </div>
                 <div className="nav-links">
-                    <Link to="/contact">CONTACT</Link>
+                    <Link to="/contact" rel="noreferrer">CONTACT</Link>
                 </div>
             </nav>
         </header>
