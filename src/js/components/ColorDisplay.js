@@ -6,7 +6,8 @@ function ColorDisplay() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('https://thawing-depths-53334-e979c81783da.herokuapp.com/api/esb-light-data');
+                const apiKey = '9Bc7X2pR3aFgK1nW5zY8x0s6DvQlT4hJ';
+                const response = await fetch(`https://thawing-depths-53334-e979c81783da.herokuapp.com/api/esb-light-data?apikey=${apiKey}`);
                 const data = await response.json();
                 setContent(data.content);
             } catch (error) {
