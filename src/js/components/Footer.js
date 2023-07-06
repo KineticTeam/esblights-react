@@ -19,7 +19,7 @@ function Footer() {
                         <Link to="/disclaimer/" rel="noreferrer">disclaimer</Link>
                     </div>
                     {/* <h1 className="site-name">empire state building lights</h1> */}
-                    <p className="copyright">&copy; <span id="current-year">{new Date().getFullYear()}</span> </p>
+                    {/* <p className="copyright">&copy; <span id="current-year">{new Date().getFullYear()}</span> </p> */}
                 </div>
             </div>
         </footer>
