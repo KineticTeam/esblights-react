@@ -10,7 +10,7 @@ function About() {
                     website provides is quite verbose and doesn't actually provide any hex codes.
                 </p>
                 <p>
-                    To address this issue I use the <a href="https://openai.com/blog/openai-api" target="__">OpenAI API</a> to generate a color scheme based on
+                    To address this issue we use the <a href="https://openai.com/blog/openai-api" target="__">OpenAI API</a> to generate a color scheme based on
                     the color description provided by the Empire State Building website.
                 </p>
             </div>
