@@ -13,7 +13,7 @@ fetch('https://api.ipify.org/?format=json')
   .catch((error) => {
     console.error('Error:', error);
   });
-
+ 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
