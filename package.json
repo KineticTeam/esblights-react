@@ -19,6 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "production": "pm2 start ecosystem.config.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "sass-global": "sass --style=compressed src/styles/global/global.scss:src/styles/global/global.css",
