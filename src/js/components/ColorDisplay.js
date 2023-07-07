@@ -7,7 +7,7 @@ function ColorDisplay() {
         const fetchData = async () => {
             try {
                 const apiKey = '9Bc7X2pR3aFgK1nW5zY8x0s6DvQlT4hJ';
-                const response = await fetch(`http://esblight-nodejs.uvtywtylvd-zqy3jy2wn3kg.p.temp-site.link/api/esb-light-data?apikey=${apiKey}`);
+                const response = await fetch(`142.93.59.121/api/esb-light-data?apikey=${apiKey}`);
                 const data = await response.json();
                 setContent(data.content);
             } catch (error) {
