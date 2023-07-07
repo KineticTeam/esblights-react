@@ -14,7 +14,6 @@ fetch('https://api.ipify.org/?format=json')
     console.error('Error:', error);
   });
  
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <HashRouter>
