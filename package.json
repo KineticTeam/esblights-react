@@ -6,15 +6,10 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "express": "^4.18.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.0",
-    "react-scripts": "5.0.1",
-    "sass": "^1.63.6",
-    "terser": "^5.18.2",
-    "tinycolor2": "^1.6.0",
-    "web-vitals": "^2.1.4"
+    "sass": "^1.63.6"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -24,7 +19,6 @@
     "eject": "react-scripts eject",
     "sass-global": "sass --style=compressed src/styles/global/global.scss:src/styles/global/global.css",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "git-push": "addCommitPush.sh"
   },
   "eslintConfig": {
@@ -46,6 +40,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "eslint-config-react-app": "^7.0.1"
   }
 }
