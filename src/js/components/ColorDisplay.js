@@ -10,9 +10,7 @@ function ColorDisplay() {
                 const response = await fetch(`http://esblight-api.uvtywtylvd-zqy3jy2wn3kg.p.temp-site.link/api/esb-light-data?apikey=${REACT_APP_ESBAPIKEY}`);
                 const data = await response.json();
                 setContent(data.content);
-            } catch (error) {
-                // console.log('Error:', error);
-            }
+            } catch (error) {}
         };
         fetchData();
     }, []);
