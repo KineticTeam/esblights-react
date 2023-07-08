@@ -27,10 +27,6 @@
     "git-push": "addCommitPush.sh"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
