@@ -36,6 +36,6 @@ function ColorDisplay() {
             </div>
         </div>
     );
-}
+} 
 
 export default ColorDisplay;
