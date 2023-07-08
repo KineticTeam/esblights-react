@@ -34,7 +34,7 @@ function ColorDisplay() {
                     <h3>{content ? content[0].toString() : ""}</h3>
                 </div>
             </div>
-        </div>
+        </div> 
     );
 } 
 
