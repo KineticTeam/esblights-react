@@ -51,13 +51,13 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            margin: 20px;
-            // word-wrap: break-word;
+            // margin: 20px;
 
             h2 {
                 color: $light-color;
-                font-size: 2rem;
+                font-size: 1.7rem;
                 text-align: center;
+                text-decoration: underline;
             }
             
             h3 {
@@ -70,7 +70,14 @@
             code {
                 color: $rainbow-red;
                 font-size: 1.2rem;
-
+                text-align: left;
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+                background-color: lighten($dark-color, 10%);
+                width: 90%;
+                padding: 8px;
+                line-height: 1.6em;
+                border-radius: 5px;
             }
         }
     }
@@ -99,8 +106,12 @@
     }
 
     h3 {
-        font-size: 0.8rem !important;
+        font-size: 0.9rem !important;
     }    
+
+    code {
+        font-size: .7rem !important;
+    }
 }
 
 @media (max-width: 500px) {
@@ -115,4 +126,8 @@
     h3 {
         font-size: 0.8rem !important;
     }    
+
+    code {
+        font-size: .7rem !important;
+    }
 }

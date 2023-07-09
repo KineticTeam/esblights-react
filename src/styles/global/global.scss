@@ -27,12 +27,13 @@ a {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    opacity: 0;
+    opacity: .5;
+    background-color: darken($light-color, 30%);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background-color: darken($light-color, 10%);
+    background-color: darken($light-color, 50%);
     transition: background-color 0.2s ease
     // border-radius: 10px;
 }

@@ -29,10 +29,10 @@ function ColorDisplay() {
             <div className="color-information">
                 <div className="color-description">
                     <h2>{content ? content.colorDescription : "..."}</h2>
-                    <h3>{content ? "Hex Codes Array:" : ""}</h3>
+                    {/* <h3>{content ? "Hex Codes Array:" : ""}</h3>
                     <code>{content ? JSON.stringify(content.hexCodes) : ""}</code>
                     <h3>{content ? "XYZ Color Space Array:" : ""}</h3>
-                    <code>{content ? JSON.stringify(content.xyzCodes) : ""}</code>
+                    <code>{content ? JSON.stringify(content.xyzCodes) : ""}</code> */}
                 </div>
             </div>
         </div> 
