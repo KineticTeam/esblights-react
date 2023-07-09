@@ -29,8 +29,8 @@ function ColorDisplay() {
             <div className="color-information">
                 <div className="color-description">
                     <h2>{content ? content.colorDescription : "..."}</h2>
-                    <h3>{content ? content.hexCodes.toString() : ""}</h3>
-                    <h3>{content ? content.xyzCodes.toString() : ""}</h3>
+                    <h3>{content ? JSON.stringify(content.hexCodes) : ""}</h3>
+                    <h3>{content ? JSON.stringify(content.xyzCodes) : ""}</h3>
                 </div>
             </div>
         </div> 
