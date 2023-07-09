@@ -17,6 +17,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/disclaimer" element={<Disclaimer />} />
         <Route path='*' element={<NotFound />}/>
+
       </Routes>
       <Footer />
     </div>
