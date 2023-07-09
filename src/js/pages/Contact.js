@@ -33,12 +33,12 @@ function Contact() {
 
     return (
         <div className="contact-page page-padding page-min-height">
-            <div class="middle-content">
-                <div class="contact-header">
+            <div className="middle-content">
+                <div className="contact-header">
                     <h1>Contact</h1>
                 </div>
-                <div class="contact-body">
-                    <form action={submitForm}>
+                <div className="contact-body">
+                    <form onSubmit={submitForm}>
                         <input type="text" id="name" name="name" placeholder="Name" required />
                         <input type="email" id="email" name="email" placeholder="Email Address" required />
                         <input type="text" id="subject" name="subject" placeholder="Subject" required />
@@ -49,7 +49,7 @@ function Contact() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Contact;

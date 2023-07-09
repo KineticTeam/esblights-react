@@ -11,18 +11,16 @@
     #email,
     #subject,
     #message {
-        width: 400px;
+        width: $page-width;
         min-width: 400px;
-        max-width: 400px;
+        max-width: $page-width;
         height: 30px;
         min-height: 30px;
         max-height: 300px;
         font-size: 1em;
-        border-radius: 30px;
+        border-radius: 10px;
         padding: 10px;
-        // text-align: center;
-        // overflow: hiddendown;
-        padding-left: 15px;
+        // padding-left: 15px;
 
         ::-webkit-scrollbar-track {
             opacity: 0.1;
@@ -40,7 +38,7 @@
   
     #submit {
         width: 200px;
-        border-radius: 100px;
+        border-radius: 20px;
         border-color: none;
         background-color: $rainbow-yellow;
         border-style: none;

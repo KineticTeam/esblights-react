@@ -1,9 +1,9 @@
 .disclaimer {
     display: flex;
     justify-content: center;
-    
+    width: $page-width;
+
     p {
-        width: $page-width;
         color: $light-color;
         line-height: 1.5em;
     }
