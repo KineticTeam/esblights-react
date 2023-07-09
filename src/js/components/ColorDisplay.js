@@ -32,7 +32,7 @@ function ColorDisplay() {
                     <h3>{content ? "Hex Codes Array:" : ""}</h3>
                     <pre><code>{content ? JSON.stringify(content.hexCodes) : ""}</code></pre>
                     <h3>{content ? "XYZ Color Space Array:" : ""}</h3>
-                    <code>{content ? JSON.stringify(content.xyzCodes) : ""}</code></pre>
+                    <pre><code>{content ? JSON.stringify(content.xyzCodes) : ""}</code></pre>
                 </div>
             </div>
         </div> 
