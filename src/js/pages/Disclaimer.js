@@ -1,6 +1,6 @@
 function Disclaimer() {
     return (
-        <div className="disclaimer page-top-padding page-min-height">
+        <div className="disclaimer page-padding page-min-height">
             <p>This website is not affiliated with the Empire State Building.
 
                 The purpose of this website is to display the hex code colors of the lights used on the Empire State Building. The colors presented here are based on available information and research. While efforts have been made to ensure accuracy, there may be variations in the actual colors used by the Empire State Building.

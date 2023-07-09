@@ -4,10 +4,15 @@
 @import 'disclaimer';
 
 // Default scss for all pages
-.page-top-padding {
+.page-padding {
     padding-top: $header-height;
     padding-left: 10vw;
     padding-right: 10vw;
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
 }
 
 .page-min-height {

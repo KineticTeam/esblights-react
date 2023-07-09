@@ -15,6 +15,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/disclaimer" element={<Disclaimer />} />
+        <Route path='*' element={<NotFound />}/>
       </Routes>
       <Footer />
     </div>
