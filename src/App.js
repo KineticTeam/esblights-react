@@ -12,11 +12,12 @@ function App() {
     <div className="app">
       <Header />
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/disclaimer" element={<Disclaimer />} />
-        <Route path='*' element={<NotFound />}/>
+        <Route path="/404" element={<NotFound />} />
+        <Route path='*' element={<Navigate to="/404" />}/>
 
       </Routes>
       <Footer />
