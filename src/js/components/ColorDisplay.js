@@ -18,7 +18,7 @@ function ColorDisplay() {
     return (
         <div className="color-section">
             <div className="color-display">
-                {content ? (content[0].map((color, index) => (
+                {content ? (content.hexCodes.map((color, index) => (
                     <div key={index} className="color-display-card" style={{ background: color }}>
                         <h2 className="display-hex-code">{color}</h2>
                     </div>
