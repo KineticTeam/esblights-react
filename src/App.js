@@ -5,6 +5,7 @@ import Home from 'js/pages/Home';
 import About from 'js/pages/About';
 import Contact from 'js/pages/Contact';
 import Disclaimer from 'js/pages/Disclaimer';
+import NotFound from 'js/pages/NotFound';
 
 function App() {
   return (
