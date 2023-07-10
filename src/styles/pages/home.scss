@@ -18,6 +18,10 @@
             width: $page-width;
             align-self: flex-start;
 
+            h2 {
+                text-decoration: underline;
+            }
+
             .code-content {
                 color: $rainbow-red;
                 background-color: $white;
