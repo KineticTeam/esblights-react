@@ -1,82 +1,88 @@
-.color-section {
-    background-color: lighten($dark-color, 10%);
-    width: $color-display-width;
-    margin-top: 15px;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: -7px -7px 10px hsla(0, 0%, 100%, 0.022), 
-   7px 7px 10px hsla(0, 0%, 0%, 0.127);
-    height: fit-content;
-
-    .color-display {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        height: $color-display-height * calc(2/3);
-        overflow-x: scroll;
-        gap: 0;
-
-        .color-display-card {
-            display: grid;
-            place-items: center; 
-            flex: 1;
-            height: 100%;
-
-            h2 {
-                color: $light-color;
-                font-size: 2rem;
-                background-color: $dark-color;
-                padding: 3px 15px;
-                border-radius: 100px;
-                text-align: center;
-            }
-
-            h3 {
-                overflow-wrap: normal;
-                text-align: center;
-            }
-        }
+.cd-comp {
+    h2 {
+        text-decoration: underline;
     }
 
-    .color-information {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    .color-section {
+        background-color: lighten($dark-color, 10%);
+        width: $color-display-width;
+        margin-top: 15px;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: -7px -7px 10px hsla(0, 0%, 100%, 0.022), 
+    7px 7px 10px hsla(0, 0%, 0%, 0.127);
         height: fit-content;
 
-        .color-description {
+        .color-display {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            height: $color-display-height * calc(2/3);
+            overflow-x: scroll;
+            gap: 0;
+
+            .color-display-card {
+                display: grid;
+                place-items: center; 
+                flex: 1;
+                height: 100%;
+
+                h2 {
+                    color: $light-color;
+                    font-size: 2rem;
+                    background-color: $dark-color;
+                    padding: 3px 15px;
+                    border-radius: 100px;
+                    text-align: center;
+                    
+                }
+
+                h3 {
+                    overflow-wrap: normal;
+                    text-align: center;
+                }
+            }
+        }
+
+        .color-information {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            // margin: 20px;
+            height: fit-content;
 
-            h2 {
-                color: $light-color;
-                font-size: 1.7rem;
-                text-align: center;
-                text-decoration: underline;
-            }
-            
-            h3 {
-                color: $light-color;
-                font-size: 1.5rem;
-                text-align: center;
+            .color-description {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                // margin: 20px;
 
-            }
+                h2 {
+                    color: $light-color;
+                    font-size: 1.7rem;
+                    text-align: center;
+                }
+                
+                h3 {
+                    color: $light-color;
+                    font-size: 1.5rem;
+                    text-align: center;
 
-            code {
-                color: $rainbow-red;
-                font-size: 1.2rem;
-                text-align: left;
-                word-wrap: break-word;
-                overflow-wrap: break-word;
-                background-color: lighten($dark-color, 10%);
-                width: 90%;
-                padding: 8px;
-                line-height: 1.6em;
-                border-radius: 5px;
+                }
+
+                code {
+                    color: $rainbow-red;
+                    font-size: 1.2rem;
+                    text-align: left;
+                    word-wrap: break-word;
+                    overflow-wrap: break-word;
+                    background-color: lighten($dark-color, 10%);
+                    width: 90%;
+                    padding: 8px;
+                    line-height: 1.6em;
+                    border-radius: 5px;
+                }
             }
         }
     }

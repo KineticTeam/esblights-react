@@ -16,7 +16,7 @@ function ColorDisplay() {
     }, []);
 
     return (
-        <div>
+        <div className="cd-comp">
             <h2>Current Color Scheme</h2>
 
             <div className="color-section">
