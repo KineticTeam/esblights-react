@@ -1,12 +1,11 @@
 .color-section {
-    background-color: lighten($dark-color, 5%);
+    background-color: lighten($dark-color, 10%);
     width: $color-display-width;
-    margin: 10vh 0;
-    // border: 1px solid lighten($dark-color, 0%);
+    margin-top: 15px;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: -7px -7px 25px hsla(0, 0%, 100%, 0.037), 
-   7px 7px 25px hsla(0, 0%, 0%, 0.419);
+    box-shadow: -7px -7px 10px hsla(0, 0%, 100%, 0.022), 
+   7px 7px 10px hsla(0, 0%, 0%, 0.127);
     height: fit-content;
 
     .color-display {
@@ -100,34 +99,39 @@
 
 
 @media (max-width: 767px) {
+    .color-section {
 
-    h2 {
-        font-size: 1rem !important;
-    }
+        h2 {
+            font-size: 1rem !important;
+        }
 
-    h3 {
-        font-size: 0.9rem !important;
-    }    
+        h3 {
+            font-size: 0.9rem !important;
+        }    
 
-    code {
-        font-size: .7rem !important;
+        code {
+            font-size: .7rem !important;
+        }
     }
 }
 
 @media (max-width: 500px) {
-    a{
-        font-size: 0.8rem !important;
-    }
+    .color-section {
 
-    h2 {
-        font-size: 1rem !important;
-    }
+        a{
+            font-size: 0.8rem !important;
+        }
 
-    h3 {
-        font-size: 0.8rem !important;
-    }    
+        h2 {
+            font-size: 1rem !important;
+        }
 
-    code {
-        font-size: .7rem !important;
+        h3 {
+            font-size: 0.8rem !important;
+        }    
+
+        code {
+            font-size: .7rem !important;
+        }
     }
 }

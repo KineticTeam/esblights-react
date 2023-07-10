@@ -1,68 +1,82 @@
-.contact-page form {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-  
-    .contact-header {
-      color: $light-color;
-    }
-  
-    #name,
-    #email,
-    #subject,
-    #message {
-        width: $page-width;
-        min-width: 400px;
-        max-width: $page-width;
-        height: 30px;
-        min-height: 30px;
-        max-height: 300px;
-        font-size: 1em;
-        border-radius: 10px;
-        padding: 10px;
-        // padding-left: 15px;
+.contact-page {
 
-        ::-webkit-scrollbar-track {
-            opacity: 0.1;
+    .middle-content { 
+    
+        .contact-body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                width: fit-content;
+                margin: 0;
+
+                h1 {
+                    margin-bottom: 0;
+                }
+            
+                #name,
+                #email,
+                #subject,
+                #message {
+                    width: $page-width;
+                    min-width: 400px;
+                    max-width: $page-width;
+                    height: 30px;
+                    min-height: 30px;
+                    max-height: 300px;
+                    font-size: 1em;
+                    border-radius: 10px;
+                    padding: 10px;
+                    // padding-left: 15px;
+
+                    ::-webkit-scrollbar-track {
+                        opacity: 0.1;
+                    }
+
+                    ::-webkit-scrollbar-corner {
+                        background-color: none;
+                        opacity: .1;
+                    }
+                }
+
+                #message {
+                    height: 90px;
+                }
+            
+                #submit {
+                    width: 200px;
+                    border-radius: 20px;
+                    border-color: none;
+                    background-color: $rainbow-yellow;
+                    border-style: none;
+                    color: $dark-color;
+                    padding: 10px;
+                    font-size: 1em;
+                    transition: background-color 0.2s ease, color 0.2s ease;
+
+                    &:hover {
+                        background-color: darken($rainbow-yellow, 10%);
+                        color: $light-color;
+                    }
+
+                    &:active {
+                        background-color: var(--secondary-gold-dark);
+                        color: var(--primary-black);
+                    }
+                }
+
+                input,
+                textarea {
+                    border-radius: 3px;
+                    border-style: none;
+                    padding: 5px;
+                    font-family: inherit;
+                }
+            }
         }
-
-        ::-webkit-scrollbar-corner {
-            background-color: none;
-            opacity: .1;
-        }
-    }
-
-    #message {
-        height: 90px;
-    }
-  
-    #submit {
-        width: 200px;
-        border-radius: 20px;
-        border-color: none;
-        background-color: $rainbow-yellow;
-        border-style: none;
-        color: $dark-color;
-        padding: 10px;
-        font-size: 1em;
-        transition: background-color 0.2s ease, color 0.2s ease;
-
-        &:hover {
-            background-color: darken($rainbow-yellow, 10%);
-            color: $light-color;
-        }
-
-        &:active {
-            background-color: var(--secondary-gold-dark);
-            color: var(--primary-black);
-        }
-    }
-
-    input,
-    textarea {
-        border-radius: 3px;
-        border-style: none;
-        padding: 5px;
-        font-family: inherit;
     }
 }

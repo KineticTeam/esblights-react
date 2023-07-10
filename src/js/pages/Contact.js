@@ -34,11 +34,9 @@ function Contact() {
     return (
         <div className="contact-page page-padding page-min-height justify-center">
             <div className="middle-content">
-                <div className="contact-header">
-                    <h1>Contact</h1>
-                </div>
                 <div className="contact-body">
                     <form onSubmit={submitForm}>
+                        <h2>Contact</h2>
                         <input type="text" id="name" name="name" placeholder="Name" required />
                         <input type="email" id="email" name="email" placeholder="Email Address" required />
                         <input type="text" id="subject" name="subject" placeholder="Subject" required />

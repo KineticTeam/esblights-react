@@ -1,4 +1,30 @@
 .home {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding-bottom: 30px;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        .color-section {
+            width: $page-width;
+        }
+
+        .api-info {
+            width: $page-width;
+            align-self: flex-start;
+
+            .code-content {
+                color: $rainbow-red;
+                background-color: $white;
+                padding: 10px;
+                line-height: 1.5em;
+                border-radius: 5px;
+            }
+        }
+    }
 }  

@@ -1,8 +1,8 @@
 function About() {
     return (
-        <div className="about page-padding page-min-height justify-center">
-            <div className="about-content">
-                <h1>About</h1>
+        <div className="about page-padding page-min-height">
+            <div className="content">
+                <h2>About</h2>
                 <p>
                     This website was created to display the hex code color scheme for the lights
                     on the Empire State Building. The color description that the 
