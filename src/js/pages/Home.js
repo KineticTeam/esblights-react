@@ -6,7 +6,6 @@ function Home() {
             <ColorDisplay />
         </div>
       );
-      
 }
 
 export default Home;
