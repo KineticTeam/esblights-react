@@ -1,6 +1,6 @@
 function About() {
     return (
-        <div className="about page-padding page-min-height">
+        <div className="about page-padding page-min-height justify-center">
             <div className="about-content">
                 <h1>About</h1>
                 <p>

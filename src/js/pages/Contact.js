@@ -32,7 +32,7 @@ function Contact() {
     }
 
     return (
-        <div className="contact-page page-padding page-min-height">
+        <div className="contact-page page-padding page-min-height justify-center">
             <div className="middle-content">
                 <div className="contact-header">
                     <h1>Contact</h1>
