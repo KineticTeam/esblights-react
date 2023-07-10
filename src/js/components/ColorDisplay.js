@@ -38,5 +38,4 @@ function ColorDisplay() {
         </div> 
     );
 } 
-
 export default ColorDisplay;
