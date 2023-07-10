@@ -7,7 +7,7 @@ function ColorDisplay() {
         const fetchData = async () => {
             try {
                 const { REACT_APP_ESBAPIKEY } = process.env;
-                const response = await fetch(`https://esblights.kinetic.com/api/esb-light-data?apikey=${REACT_APP_ESBAPIKEY}`);
+                const response = await fetch(`https://esblights-api.kinetic.com/api/esb-light-data?apikey=${REACT_APP_ESBAPIKEY}`);
                 const data = await response.json();
                 setContent(data.content);
             } catch (error) {}
