@@ -10,6 +10,10 @@
     box-shadow: 0 0px 15px #0000007d;
     transition: opacity 0.3s ease, height 0.3s ease;
 
+    &:hover {
+        opacity: 1;
+    }
+
     .logo {
 
        .logo-img {
