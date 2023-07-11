@@ -22,9 +22,9 @@
                 #email,
                 #subject,
                 #message {
-                    width: $page-width;
+                    width: 400px;
                     min-width: 400px;
-                    max-width: $page-width;
+                    max-width: 400px;
                     height: 30px;
                     min-height: 30px;
                     max-height: 300px;
@@ -51,15 +51,15 @@
                     width: 200px;
                     border-radius: 20px;
                     border-color: none;
-                    background-color: $rainbow-yellow;
+                    background-color: $rainbow-blue;
                     border-style: none;
-                    color: $dark-color;
+                    color: $light-color;
                     padding: 10px;
                     font-size: 1em;
                     transition: background-color 0.2s ease, color 0.2s ease;
 
                     &:hover {
-                        background-color: darken($rainbow-yellow, 10%);
+                        background-color: darken($rainbow-blue, 10%);
                         color: $light-color;
                     }
 

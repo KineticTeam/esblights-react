@@ -9,7 +9,7 @@
         margin-top: 15px;
         border-radius: 5px;
         overflow: hidden;
-        box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.127);
+        box-shadow: 0 0 15px hsla(0, 0%, 0%, 0.048);
         height: fit-content;
 
         .color-display {
@@ -27,12 +27,13 @@
                 height: 100%;
 
                 h2 {
-                    color: $white;
+                    color: $dark-color;
                     font-size: 2rem;
-                    background-color: darken($rainbow-blue, 40%);
-                    padding: 3px 15px;
+                    // background-color: $dark-color;
+                    padding: 2px 12px;
                     border-radius: 100px;
                     text-align: center;
+                    line-height: 1.3em;
                     
                 }
 
@@ -49,6 +50,7 @@
             align-items: center;
             justify-content: center;
             height: fit-content;
+            padding: 10px;
 
             .color-description {
                 display: flex;

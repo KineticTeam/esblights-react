@@ -4,9 +4,9 @@
     align-items: center;
     bottom: 0;
     width: 100%;
-    background-color: $dark-color;
+    background-color: darken($dark-color, 10%);
     padding: 50px 0;
-    box-shadow: 0 50vh 0 50vh $dark-color;
+    box-shadow: 0 50vh 0 50vh darken($dark-color, 10%);
 
     .footer-row {
         display: flex;
