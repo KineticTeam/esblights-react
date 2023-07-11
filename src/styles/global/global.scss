@@ -2,6 +2,11 @@
 @import '../components/components';
 @import '../pages/pages';
 
+@font-face {
+    font-family: 'Inter';
+    src: url('js/../../public/Inter-VariableFont_slnt,wght.woff') format('woff');
+}
+
 body {
     margin: 0;
     background-color: lighten($kinetic-gray, 35%);
@@ -14,7 +19,7 @@ a {
     transition: color 0.2s ease;
     color: $dark-color;
     text-decoration: none;
-    
+
     &:hover {
         color: darken($rainbow-blue, 40%);
     }
@@ -37,7 +42,7 @@ h3 {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: lighter;
     color: $dark-color;
     margin: 0;

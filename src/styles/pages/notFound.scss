@@ -1,9 +1,14 @@
 .not-found {
-    background-image: url('js/../../public/spotlight.png');
+    background-image: url('js/../../public/spotlight-cutoff.png');
     background-size: 1000px;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: bottom;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start !important;
 }
 
 @media (max-width: 1200px) {

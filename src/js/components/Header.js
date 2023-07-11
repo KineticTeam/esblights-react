@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
-import logo from 'js/../../public/white-icon-no-img.png';
+import logo from 'js/../../public/white-icon.png';
 
 function Header() {
     const [scrollTop, setScrollTop] = useState(0);
@@ -29,13 +29,13 @@ function Header() {
 
             <nav className="nav-bar">
                 <div className="nav-links">
-                    <Link to="/" rel="noreferrer">HOME</Link>
+                    <Link to="/" rel="noreferrer">home</Link>
                 </div>
                 <div className="nav-links">
-                    <Link to="/about" rel="noreferrer">ABOUT</Link>
+                    <Link to="/about" rel="noreferrer">about</Link>
                 </div>
                 <div className="nav-links">
-                    <Link to="/contact" rel="noreferrer">CONTACT</Link>
+                    <Link to="/contact" rel="noreferrer">contact</Link>
                 </div>
             </nav>
         </header>

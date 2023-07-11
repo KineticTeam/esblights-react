@@ -5,6 +5,11 @@
     justify-content: flex-start;
 
     .content {
-        width: $page-width
+        width: $page-width;
+
+        h2,
+        p {
+            width: 100%;
+        }
     }  
 }

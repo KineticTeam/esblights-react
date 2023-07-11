@@ -38,7 +38,7 @@ function Contact() {
                     <form onSubmit={submitForm}>
                         <h2>Contact</h2>
                         <input type="text" id="name" name="name" placeholder="Name" required />
-                        <input type="email" id="email" name="email" placeholder="Email Address" required />
+                        <input type="email" id="email" name="email" placeholder="Email" required />
                         <input type="text" id="subject" name="subject" placeholder="Subject" required />
                         <textarea type="textarea" id="message" name="message" placeholder="Message" required></textarea>
 

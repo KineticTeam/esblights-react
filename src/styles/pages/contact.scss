@@ -48,7 +48,7 @@
                 }
             
                 #submit {
-                    width: 200px;
+                    width: 100px;
                     border-radius: 20px;
                     border-color: none;
                     background-color: $rainbow-blue;
@@ -78,5 +78,16 @@
                 }
             }
         }
+    }
+}
+
+@media (max-width: 768px) {
+    #name,
+    #email,
+    #subject,
+    #message {
+        width: 300px !important;
+        min-width: 300px !important;
+        max-width: 300px !important;
     }
 }

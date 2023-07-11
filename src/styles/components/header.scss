@@ -13,7 +13,7 @@
     .logo {
 
        .logo-img {
-            height: 4.5em;
+            height: 5em;
             width: auto;
         }
     }
@@ -25,7 +25,7 @@
 
         .nav-links {
             a {
-                font-size: 0.9em;
+                font-size: 1em;
                 color: $light-color;
             }
 
@@ -43,6 +43,18 @@
         .logo {
             .logo-img {
                 height: 3.13em !important;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .header {
+        .nav-bar {
+            .nav-links {
+                a {
+                    font-size: 1.2em;
+                }
             }
         }
     }

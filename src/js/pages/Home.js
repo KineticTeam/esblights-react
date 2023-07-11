@@ -19,6 +19,7 @@ function Home() {
             <div className="content">
                 <ColorDisplay />
                 <div className="api-info">
+                    <hr />
                     <h2>ESB Lights API</h2>
                     <h3>Request</h3>
                     <pre className="code-content">GET https://esblight-api.kinetic.com/api/get-light-data</pre>
