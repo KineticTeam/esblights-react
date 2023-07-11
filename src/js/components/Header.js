@@ -19,7 +19,7 @@ function Header() {
 
     return (
         <header className="header" style={{
-                opacity: (scrollTop > 100 ? 0.4 : 1 ), 
+                opacity: (scrollTop > 100 ? 0.3 : 1 ), 
                 height: (scrollTop > 100 ? "5em" : "9em" )
             }}>
 
