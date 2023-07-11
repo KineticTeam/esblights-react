@@ -1,8 +1,8 @@
 .not-found {
     background-image: url('js/../../public/spotlight-cutoff.png');
-    background-size: 1000px;
+    background-size: 65%;
     background-repeat: no-repeat;
-    background-position-x: center;
+    background-position-x: left;
     background-position-y: bottom;
 
     display: flex;
@@ -13,18 +13,6 @@
 
 @media (max-width: 1200px) {
     .not-found {
-        background-size: 800px;
-    }
-}
-
-@media (max-width: 900px) {
-    .not-found {
-        background-size: 600px;
-    }
-}
-
-@media (max-width: 600px) {
-    .not-found {
-        background-size: 450px;
+        background-size: 97.5%;
     }
 }
