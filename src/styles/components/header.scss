@@ -5,8 +5,8 @@
     align-items: center;
     position: fixed;
     width: 100vw;
-    height: $header-height;
-    background-color: $dark-color;
+    height: $header-height !important;
+    background-color: darken($rainbow-blue, 15%);
     box-shadow: 0 0px 15px #0000007d;
     transition: opacity 0.3s ease, height 0.3s ease;
 
@@ -25,7 +25,7 @@
 
         .nav-links {
             box-shadow: inset -2px -2px 2px hsla(0, 0%, 100%, 0.027), 
-            inset 3px 3px 3px hsla(0, 0%, 0%, 0.34);
+            inset 3px 3px 3px hsla(0, 0%, 0%, 0.164);
             padding: 9px 14px;
             border-radius: 100px;
 

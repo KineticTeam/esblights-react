@@ -6,7 +6,7 @@
 
 // Default scss for all pages
 .page-padding {
-    padding-top: $header-height;
+    padding-top: $header-height + 10px;
     // padding-left: 5vw;
     // padding-right: 5vw;
 }
@@ -17,7 +17,7 @@
 }
 
 .page-min-height {
-    min-height: 82.2vh - $header-height;
+    min-height: 71vh;
 }
 
 h1 {

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
-import logo from 'js/../../public/white-icon.png';
+import logo from 'js/../../public/white-icon-no-img.png';
 
 function Header() {
     const [scrollTop, setScrollTop] = useState(0);

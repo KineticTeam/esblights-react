@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background-color: lighten($dark-color, 5%);
+    background-color: $white;
     font-family:  'Century Gothic', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, Arial, sans-serif !important;
     font-weight: lighter;
 }
@@ -12,33 +12,60 @@ body {
 a {
     margin: 0px;
     transition: color 0.2s ease;
+    color: $dark-color;
+    text-decoration: none;
     
     &:hover {
         color: $rainbow-yellow;
     }
 }
 
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-    padding: 2px;
+h2 {
+    font-size: 2rem;
+    font-weight: lighter;
+    color: $dark-color;
+    margin: 0;
+    line-height: 2em;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-    opacity: .5;
-    background-color: darken($light-color, 30%);
+h3 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: $dark-color;
+    margin: 0;
+    line-height: 1.5em;
 }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background-color: darken($light-color, 50%);
-    transition: background-color 0.2s ease
-    // border-radius: 10px;
+p {
+    font-size: 1rem;
+    font-weight: lighter;
+    color: $dark-color;
+    margin: 0;
+    line-height: 1.5em;
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background-color: lighten($rainbow-yellow, 20%);
-}
+
+// /* width */
+// ::-webkit-scrollbar {
+//     width: 10px;
+//     height: 10px;
+//     padding: 2px;
+// }
+
+// /* Track */
+// ::-webkit-scrollbar-track {
+//     opacity: .5;
+//     background-color: darken($rainbow-blue, 30%);
+// }
+
+// /* Handle */
+// ::-webkit-scrollbar-thumb {
+//     background-color: darken($rainbow-blue, 50%);
+//     transition: background-color 0.2s ease
+//     // border-radius: 10px;
+// }
+
+// /* Handle on hover */
+// ::-webkit-scrollbar-thumb:hover {
+//     background-color: lighten($rainbow-blue, 20%);
+// }

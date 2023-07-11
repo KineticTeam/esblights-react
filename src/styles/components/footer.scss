@@ -46,14 +46,14 @@
             }
         }
     }
-}
 
-a {
-    color: white;
-    text-decoration: none;
-
-    &:hover {
-        color: white;
-        filter: brightness(.8);
+    a {
+        color: white !important;
+    
+        &:hover {
+            color: white !important;
+            filter: brightness(.8);
+        }
     }
 }
+

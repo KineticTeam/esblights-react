@@ -4,13 +4,12 @@
     }
 
     .color-section {
-        background-color: lighten($dark-color, 10%);
+        background-color: $rainbow-blue;
         width: $color-display-width;
         margin-top: 15px;
-        border-radius: 10px;
+        border-radius: 5px;
         overflow: hidden;
-        box-shadow: -7px -7px 10px hsla(0, 0%, 100%, 0.022), 
-    7px 7px 10px hsla(0, 0%, 0%, 0.127);
+        box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.127);
         height: fit-content;
 
         .color-display {
@@ -28,9 +27,9 @@
                 height: 100%;
 
                 h2 {
-                    color: $light-color;
+                    color: $white;
                     font-size: 2rem;
-                    background-color: $dark-color;
+                    background-color: darken($rainbow-blue, 40%);
                     padding: 3px 15px;
                     border-radius: 100px;
                     text-align: center;
@@ -59,13 +58,13 @@
                 // margin: 20px;
 
                 h2 {
-                    color: $light-color;
+                    color: $white;
                     font-size: 1.7rem;
                     text-align: center;
                 }
                 
                 h3 {
-                    color: $light-color;
+                    color: $white;
                     font-size: 1.5rem;
                     text-align: center;
 

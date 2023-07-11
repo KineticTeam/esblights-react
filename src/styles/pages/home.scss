@@ -23,11 +23,12 @@
             }
 
             .code-content {
-                color: $rainbow-red;
-                background-color: $white;
+                color: darken($rainbow-blue, 40%);
+                background-color: $light-color;
                 padding: 10px;
                 line-height: 1.5em;
                 border-radius: 5px;
+                border: 1px solid darken($light-color, 25%);
             }
         }
     }
