@@ -44,3 +44,14 @@
         width: 80vw !important;
     }
 }
+
+@media (max-width: 450px) {
+    pre {
+        font-size: 0.8em;
+    }
+
+    .api-info,
+    .color-section {
+        width: 85vw !important;
+    }
+}
