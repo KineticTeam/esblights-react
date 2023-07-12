@@ -19,12 +19,16 @@ function Home() {
             <div className="content">
                 <ColorDisplay />
                 <div className="api-info">
-                    <hr />
                     <h2>ESB Lights API</h2>
                     <h3>Request</h3>
                     <pre className="code-content">GET https://esblight-api.kinetic.com/api/get-light-data</pre>
                     <h3>Response</h3>
                     <JsonDisplay className="code-content" jsonData={jsonData} />
+                    <h3>Usage</h3>
+                    <p>This API is free to use. You may not use this 
+                        API in a manner that exceeds reasonable request 
+                        volume, or constitutes excessive or abusive usage.
+                        </p>
                 </div>
             </div>
         </div>
