@@ -14,7 +14,7 @@ function Footer() {
                 </div>
                 <div className="footer-stuff">
                     <div className="contact">
-                        <Link to="/contact/" rel="noreferrer">contact us</Link>
+                    <a href="https://www.kinetic.com/contact-us/">contact us</a>
                         <span className="sep"> | </span>
                         <Link to="/disclaimer/" rel="noreferrer">disclaimer</Link>
                     </div>
