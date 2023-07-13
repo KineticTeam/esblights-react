@@ -24,13 +24,24 @@ function Home() {
                       the lights on the Empire State Building. Feel free to use it for
                       your own projects, but keep it quiet!</p>
                 </div>
+                <div><hr /></div>
                 <ColorDisplay />
+                <div><hr /></div>
                 <div className="api-info">
                     <h2>ESB Lights API</h2>
                     <h3>Request</h3>
                     <pre className="code-content">GET https://esblight-api.kinetic.com/api/esb-light-data</pre>
                     <h3>Response</h3>
                     <JsonDisplay className="code-content" jsonData={jsonData} />
+                    <div><hr /></div>
+                    <h3>A Few Notes</h3>
+                    <p>The values in the xyzCodes attribute belong to a special color model
+                      called the <a href="https://en.wikipedia.org/wiki/CIE_1931_color_space">CIE 1931 Color Space</a>.
+                      This is the model that is used by Hue Lights, so you'll need to implement these values for those kinds of applications.
+                      X and Y values represent the chromaticity coordinates, and Z represents the brightness. Also note that for
+                      Hue Light systems, the brightness value is an integer in the range of 0-254, so you will need to multiply the value.
+                    </p>
+                    <div><hr/></div>
                     <h3>Usage</h3>
                     <p>This API is free to use. Please do not use this 
                         API in a manner that exceeds reasonable request 
