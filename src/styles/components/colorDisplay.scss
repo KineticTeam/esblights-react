@@ -57,6 +57,7 @@
             justify-content: center;
             height: fit-content;
             padding: 20px;
+            animation: fade-in-animation .5s ease-in-out;
 
             .color-description {
                 display: flex;
