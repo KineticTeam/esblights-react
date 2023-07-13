@@ -17,10 +17,12 @@ function Home() {
     return (
         <div className="home page-padding page-min-height">
             <div className="content">
-                <h2>ESB Lights at Kinetic</h2>
-                <p>This API was created to allow us to match our weathervane lights 
-                  with the lights on the Empire State Building. Feel free to use it for
-                  your own projects, but keep it quiet!</p>
+                <div className="api-info">
+                    <h2>ESB Lights at Kinetic</h2>
+                    <p>This API was created to allow us to match our weathervane lights 
+                      with the lights on the Empire State Building. Feel free to use it for
+                      your own projects, but keep it quiet!</p>
+                </div>
                 <ColorDisplay />
                 <div className="api-info">
                     <h2>ESB Lights API</h2>
