@@ -17,12 +17,12 @@ function Home() {
     return (
         <div className="home page-padding page-min-height">
             <div className="content">
+                <h2>ESB Lights at Kinetic</h2>
+                <p>This API was created to allow us to match our weathervane lights 
+                  with the lights on the Empire State Building. Feel free to use it for
+                  your own projects, but keep it quiet!</p>
                 <ColorDisplay />
                 <div className="api-info">
-                    <h2>ESB Lights at Kinetic</h2>
-                    <p>This API was created to allow us to match our weathervane lights 
-                      with the lights on the Empire State Building. Feel free to use it for
-                      your own projects, but keep it quiet!</p>
                     <h2>ESB Lights API</h2>
                     <h3>Request</h3>
                     <pre className="code-content">GET https://esblight-api.kinetic.com/api/esb-light-data</pre>
