@@ -35,7 +35,7 @@ function Header() {
                     <Link to="/about" rel="noreferrer">about</Link>
                 </div>
                 <div className="nav-links">
-                    <Link to="/contact" rel="noreferrer">contact</Link>
+                    <a href="https://www.kinetic.com/contact-us/">contact</a>
                 </div>
             </nav>
         </header>
