@@ -19,16 +19,19 @@ function Home() {
             <div className="content">
                 <ColorDisplay />
                 <div className="api-info">
+                    <h2>ESB Lights at Kinetic</h2>
+                    <p>This API was created to allow us to match our weathervane lights 
+                      with the lights on the Empire State Building. Feel free to use it for
+                      your own projects, but keep it quiet!</p>
                     <h2>ESB Lights API</h2>
                     <h3>Request</h3>
                     <pre className="code-content">GET https://esblight-api.kinetic.com/api/esb-light-data</pre>
                     <h3>Response</h3>
                     <JsonDisplay className="code-content" jsonData={jsonData} />
                     <h3>Usage</h3>
-                    <p>This API is free to use. You may not use this 
+                    <p>This API is free to use. Please do not use this 
                         API in a manner that exceeds reasonable request 
-                        volume, or constitutes excessive or abusive usage.
-                        </p>
+                        volume, or constitutes excessive or abusive usage.</p>
                 </div>
             </div>
         </div>
