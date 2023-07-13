@@ -20,7 +20,7 @@ function Home() {
                 <div className="api-info">
                     <h2>ESB Lights at Kinetic</h2>
                     <p>This API was created to allow us to match 
-                      our <a href="https://kinetic.com/the-services/" target="__">weathervane lights</a> with 
+                      our <a href="https://kinetic.com/virtual-tour/" target="__">weathervane lights</a> with 
                       the lights on the Empire State Building. Feel free to use it for
                       your own projects, but keep it quiet!</p>
                 </div>

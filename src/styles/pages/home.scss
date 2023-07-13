@@ -24,6 +24,10 @@
 
             a {
                 color: $rainbow-blue;
+
+                &:hover {
+                    color: darken($rainbow-blue, 20%);
+                }
             }
 
             .code-content {
