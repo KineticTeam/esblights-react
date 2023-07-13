@@ -21,7 +21,7 @@ function Home() {
                 <div className="api-info">
                     <h2>ESB Lights API</h2>
                     <h3>Request</h3>
-                    <pre className="code-content">GET https://esblight-api.kinetic.com/api/get-light-data</pre>
+                    <pre className="code-content">GET https://esblight-api.kinetic.com/api/esb-light-data</pre>
                     <h3>Response</h3>
                     <JsonDisplay className="code-content" jsonData={jsonData} />
                     <h3>Usage</h3>
