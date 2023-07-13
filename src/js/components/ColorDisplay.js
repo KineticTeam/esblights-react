@@ -35,7 +35,7 @@ function ColorDisplay() {
                 </div>
                 <div className="color-information">
                     <div className="color-description">
-                        <h2>{content ? content.colorDescription : '...'}</h2>
+                        <h2>{content ? content.colorDescription : ''}</h2>
                     </div>
                 </div>
             </div>
