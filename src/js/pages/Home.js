@@ -37,7 +37,7 @@ function Home() {
                     <h3>A Few Notes</h3>
                     <p>The values in the xyzCodes attribute belong to a special color model
                       called the <a href="https://en.wikipedia.org/wiki/CIE_1931_color_space">CIE 1931 Color Space</a>.
-                      This is the model that is used by Hue Lights, so you'll need to implement these values for those kinds of applications.
+                      This is the model that is used by Hue Lights, so you'll need to implement these values for those kinds of systems.
                       X and Y values represent the chromaticity coordinates, and Z represents the brightness. Also note that for
                       Hue Light systems, the brightness value is an integer in the range of 0-254, so you will need to multiply the value.
                     </p>
