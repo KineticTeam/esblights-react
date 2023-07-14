@@ -11,10 +11,12 @@
         p {
             width: 100%;
         }
-
+        
         a {
+            color: $rainbow-blue;
+
             &:hover {
-                font-weight: 600;
+                color: darken($rainbow-blue, 20%);
             }
         }
     }  

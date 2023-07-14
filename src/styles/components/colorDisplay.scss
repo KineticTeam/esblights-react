@@ -34,18 +34,16 @@
                 animation: fade-in-animation .5s ease-in-out;
 
                 h2 {
-                    color: $dark-color;
-                    font-size: 2rem;
+                    color: $light-color;
+                    font-size: 1rem;
+                    font-weight: thin;
                     padding: 2px 12px;
                     border-radius: 100px;
                     text-align: center;
                     line-height: 1.3em;
+                    // -webkit-text-stroke: .5px rgb(34, 34, 34);
+                    background-color: $rainbow-blue;
                     
-                }
-
-                h3 {
-                    overflow-wrap: normal;
-                    text-align: center;
                 }
             }
         }
@@ -125,6 +123,10 @@
 
         code {
             font-size: .7rem !important;
+        }
+
+        .display-hex-code {
+            width: fit-content !important;
         }
     }
 }
