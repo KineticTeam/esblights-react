@@ -66,13 +66,13 @@ p {
 ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
-    padding: 2px;
+    position: fixed;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
     background-color: transparent;
-    border: 1px solid $kinetic-gray;
+    border: 1px solid transparent;
 }
 
 /* Handle */
