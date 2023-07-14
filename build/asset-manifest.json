@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.a3f1ffc2.css",
+    "main.css": "/static/css/main.70f2db0b.css",
     "main.js": "/static/js/main.9379b3ab.js",
     "static/media/Inter-VariableFont_slnt,wght.woff": "/static/media/Inter-VariableFont_slnt,wght.40882a613b0a3cd6b787.woff",
     "static/media/spotlight-cutoff.png": "/static/media/spotlight-cutoff.9ed85dbf6bbec9b8e3b1.png",
     "index.html": "/index.html",
-    "main.a3f1ffc2.css.map": "/static/css/main.a3f1ffc2.css.map",
+    "main.70f2db0b.css.map": "/static/css/main.70f2db0b.css.map",
     "main.9379b3ab.js.map": "/static/js/main.9379b3ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3f1ffc2.css",
+    "static/css/main.70f2db0b.css",
     "static/js/main.9379b3ab.js"
   ]
 }
