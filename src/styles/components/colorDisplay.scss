@@ -16,34 +16,26 @@
             height: $color-display-height * calc(2/3);
             overflow-x: scroll;
             gap: 0;
-            
-            @keyframes fade-in-animation {
-                from {
-                  opacity: 0;
-                }
-                to {
-                  opacity: 1;
-                }
-              }
+
+
 
             .color-display-card {
                 display: grid;
                 place-items: center; 
                 flex: 1;
                 height: 100%;
-                animation: fade-in-animation .5s ease-in-out;
 
                 h2 {
-                    color: $light-color;
-                    font-size: 1rem;
+                    color: $white;
+                    font-size: 1.2rem;
                     font-weight: thin;
                     padding: 2px 12px;
-                    border-radius: 100px;
+                    margin: 10px;
+                    border-radius: 8px;
                     text-align: center;
                     line-height: 1.3em;
                     // -webkit-text-stroke: .5px rgb(34, 34, 34);
                     background-color: $rainbow-blue;
-                    
                 }
             }
         }
@@ -55,7 +47,7 @@
             justify-content: center;
             height: fit-content;
             padding: 20px;
-            animation: fade-in-animation .5s ease-in-out;
+            min-height: 150px;
 
             .color-description {
                 display: flex;
@@ -72,9 +64,8 @@
                 
                 h3 {
                     color: $white;
-                    font-size: 1.5rem;
+                    font-size: 1.1rem;
                     text-align: center;
-
                 }
 
                 code {
