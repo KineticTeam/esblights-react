@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import logo from 'js/../../public/white-icon.png';
-import { Link as ScrollLink } from 'react-scroll';
 
 function Header() {
     const [scrollTop, setScrollTop] = useState(0);
@@ -42,7 +41,7 @@ function Header() {
                         <Link to="/#esb-lights-api">api</Link>
                     </div>
                 }
-                
+
                 <div className="nav-links">
                     <Link to="/about" rel="noreferrer">about</Link>
                 </div>
