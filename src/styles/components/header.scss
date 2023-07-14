@@ -5,10 +5,9 @@
     align-items: center;
     position: fixed;
     width: 100vw;
-    height: $header-height !important;
     background-color: $rainbow-blue;
     box-shadow: 0 0px 15px #0000007d;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease, height 0.3s ease;
     z-index: 100;
 
     &:hover {
@@ -18,8 +17,8 @@
     .logo {
 
        .logo-img {
-            height: 5em;
             width: auto;
+            height: 5em;
         }
     }
 
@@ -29,16 +28,17 @@
         gap: 20px;
 
         .nav-links {
-            a {
+            a,
+            ScrollLink {
                 font-size: 1em;
-                color: $light-color;
-            }
-
-            &:hover {
-                a {
+                color: $light-color;            
+                
+                &:hover {
                     color: darken($rainbow-blue, 40%);
                 }
             }
+
+
         }
     }
 }

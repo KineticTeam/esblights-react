@@ -8,7 +8,16 @@
     .content {
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 0px;
+
+        .divider {
+            height: 5.5em;
+            
+            hr {
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+        }
 
         .color-section {
             width: $page-width;

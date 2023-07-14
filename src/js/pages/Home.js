@@ -1,7 +1,31 @@
+import { useEffect, useRef } from 'react';
 import ColorDisplay from 'js/components/ColorDisplay';
 import JsonDisplay from 'js/components/JsonDisplay';
 
-function Home() {
+function Home() {    
+    const apiSection = useRef(null);
+
+    useEffect(() => {
+        const handleHashChange = () => {
+          if (window.location.hash === '#esb-lights-api') {
+            // Scroll to the section on page load
+            apiSection.current.scrollIntoView({ behavior: 'smooth' });
+          }
+        };
+  
+        // Scroll to the section if the hash is already present
+        handleHashChange();
+  
+        // Listen for hash changes and scroll to the section accordingly
+        window.addEventListener('hashchange', handleHashChange);
+  
+        // Cleanup the event listener on component unmount
+        return () => {
+          window.removeEventListener('hashchange', handleHashChange);
+        };
+      }, []);
+  
+
     const jsonData = {
         content: {
             hexCodes: ["#0000FF", "#FFFFFF", "#FF0000"],
@@ -13,7 +37,7 @@ function Home() {
             colorDescription: "blue, white and red",
             reason: "In Partnership with The Consulate General of France in New York in Celebration of Bastille Day"
         }
-      };
+    };
 
     return (
         <div className="home page-padding page-min-height">
@@ -26,9 +50,9 @@ function Home() {
                         your own projects, but keep it quiet!
                     </p>
                 </div>
-                <div><hr /></div>
+                <div className="divider"><hr/></div>
                 <ColorDisplay />
-                <div><hr /></div>
+                <div id="esb-lights-api" className="divider" ref={apiSection}><hr/></div>
                 <div className="api-info">
                     <h2>ESB Lights API</h2>
                     <h3>Request</h3>

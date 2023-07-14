@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import logo from 'js/../../public/white-icon.png';
+import { Link as ScrollLink } from 'react-scroll';
 
 function Header() {
     const [scrollTop, setScrollTop] = useState(0);
@@ -20,7 +21,7 @@ function Header() {
     return (
         <header className="header" style={{
                 opacity: (scrollTop > 100 ? 0.8 : 1 ), 
-                height: (scrollTop > 100 ? "5em" : "9em" )
+                height: (scrollTop > 100 ? "3.75em" : "7.5em" )
             }}>
 
             <Link to="/" rel="noreferrer" className="logo">
@@ -31,6 +32,17 @@ function Header() {
                 <div className="nav-links">
                     <Link to="/" rel="noreferrer">home</Link>
                 </div>
+
+                {window.location.pathname === "/" ?
+                    <div className="nav-links">
+                        <a href="/#esb-lights-api">api</a>
+                    </div>
+                :
+                    <div className="nav-links">
+                        <Link to="/#esb-lights-api">api</Link>
+                    </div>
+                }
+                
                 <div className="nav-links">
                     <Link to="/about" rel="noreferrer">about</Link>
                 </div>

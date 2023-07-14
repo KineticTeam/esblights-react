@@ -7,6 +7,10 @@
     src: url('js/../../public/Inter-VariableFont_slnt,wght.woff') format('woff');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     background-color: lighten($kinetic-gray, 35%);
