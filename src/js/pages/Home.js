@@ -2,15 +2,20 @@ import { useEffect, useRef } from 'react';
 import ColorDisplay from 'js/components/ColorDisplay';
 import JsonDisplay from 'js/components/JsonDisplay';
 
-function Home() {    
+function Home() {
+    if (window.location.hash === '') {
+        // Scroll to the section on page load
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
     const apiSection = useRef(null);
 
     useEffect(() => {
         const handleHashChange = () => {
-          if (window.location.hash === '#esb-lights-api') {
-            // Scroll to the section on page load
-            apiSection.current.scrollIntoView({ behavior: 'smooth' });
-          }
+            if (window.location.hash === '#esb-lights-api') {
+                // Scroll to the section on page load
+                apiSection.current.scrollIntoView({ behavior: 'smooth' });
+            }
         };
   
         // Scroll to the section if the hash is already present
