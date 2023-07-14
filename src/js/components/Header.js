@@ -34,11 +34,11 @@ function Header() {
 
                 {window.location.pathname === "/" ?
                     <div className="nav-links">
-                        <a href="/#esb-lights-api">api</a>
+                        <a href="/#api">api</a>
                     </div>
                 :
                     <div className="nav-links">
-                        <Link to="/#esb-lights-api">api</Link>
+                        <Link to="/#api">api</Link>
                     </div>
                 }
 

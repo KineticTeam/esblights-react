@@ -12,7 +12,7 @@ function Home() {
 
     useEffect(() => {
         const handleHashChange = () => {
-            if (window.location.hash === '#esb-lights-api') {
+            if (window.location.hash === '#api') {
                 // Scroll to the section on page load
                 apiSection.current.scrollIntoView({ behavior: 'smooth' });
             }
@@ -57,7 +57,7 @@ function Home() {
                 </div>
                 <div className="divider"><hr/></div>
                 <ColorDisplay />
-                <div id="esb-lights-api" className="divider" ref={apiSection}><hr/></div>
+                <div id="api" className="divider" ref={apiSection}><hr/></div>
                 <div className="api-info">
                     <h2>ESB Lights API</h2>
                     <h3>Request</h3>
