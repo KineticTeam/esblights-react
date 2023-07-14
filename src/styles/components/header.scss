@@ -47,7 +47,7 @@
     .header {
         .logo {
             .logo-img {
-                height: 3.13em !important;
+                height: 3.13em;
             }
         }
     }
@@ -59,6 +59,46 @@
             .nav-links {
                 a {
                     font-size: 1.2em;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        .logo {
+            .logo-img {
+                 width: auto;
+                 height: 3em;
+             }
+         }
+
+        .nav-bar {
+            gap: 10px;
+            .nav-links {
+                a {
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .header {
+        .logo {
+            .logo-img {
+                 width: auto;
+                 height: 2.5em;
+             }
+         }
+
+        .nav-bar {
+            gap: 10px;
+            .nav-links {
+                a {
+                    font-size: 1em;
                 }
             }
         }

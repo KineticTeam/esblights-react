@@ -26,7 +26,7 @@ function ColorDisplay() {
                                 className={`color-display-card`}
                                 style={{ background: color }}
                             >
-                                <h2 className="display-hex-code" style={{ color: color }}>{color}</h2>
+                                <h2 className="display-hex-code">{color}</h2>
                             </div>
                         ))
                     ) : (
