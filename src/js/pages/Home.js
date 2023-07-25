@@ -48,11 +48,11 @@ function Home() {
         <div className="home page-padding page-min-height">
             <div className="content">
                 <div className="api-info">
-                    <h2>ESB Lights at Kinetic</h2>
-                    <p>This API was created to allow us to match 
+                    <h2>kWeathervane Lights at Kinetic</h2>
+                    <p>The API below was created to allow us to match 
                         our <a href="https://kinetic.com/virtual-tour/" target="__">weathervane lights</a> with 
                         the lights on the Empire State Building. Feel free to use it for
-                        your own projects, but keep it quiet!
+                        your own projects!
                     </p>
                 </div>
                 <div className="divider"><hr/></div>
