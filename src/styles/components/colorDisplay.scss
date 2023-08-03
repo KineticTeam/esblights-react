@@ -1,5 +1,4 @@
 .cd-comp {
-
     .color-section {
         background-color: $rainbow-blue;
         width: $color-display-width;
@@ -8,7 +7,17 @@
         overflow: hidden;
         box-shadow: 0 0 15px hsla(0, 0%, 0%, 0.048);
         height: fit-content;
+        transition: 
+            transform .3s ease, 
+            box-shadow .3s ease;
 
+        &:hover {
+            transform: scale(1.01);
+            top: 25vh;
+            left: 25vw; 
+            box-shadow: 0 0 15px hsla(0, 0%, 0%, 0.106);
+        }
+        
         .color-display {
             display: flex;
             flex-direction: row;
