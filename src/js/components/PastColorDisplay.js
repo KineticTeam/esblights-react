@@ -11,7 +11,7 @@ function PastColorDisplay() {
                 const data = await response.json();
                 setContent(data.content);
             } catch (error) {
-                console.log(error);
+                setContent(false);
             }
         };
         fetchData();
