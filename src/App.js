@@ -6,6 +6,7 @@ import About from 'js/pages/About';
 import Contact from 'js/pages/Contact';
 import Disclaimer from 'js/pages/Disclaimer';
 import NotFound from 'js/pages/NotFound';
+import Past from 'js/pages/Past';
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                     <Route path="/about" element={<About />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/disclaimer" element={<Disclaimer />} />
+                    <Route path="/past" element={<Past />} />
                     <Route path="/404" element={<NotFound />} />
                     <Route path='*' element={<Navigate to="/404" />}/>
                 </Routes>

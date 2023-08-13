@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from "react-router-dom";
 
 function ColorDisplay() {
     const [content, setContent] = useState(null);
@@ -6,7 +7,7 @@ function ColorDisplay() {
     useEffect(() => {
         const fetchData = async () => {
             const { REACT_APP_ESBAPIKEY } = process.env;
-            const response = await fetch(`https://esblight-api.kinetic.com/api/esb-light-data?apikey=${REACT_APP_ESBAPIKEY}`);
+            const response = await fetch(`http://localhost:4000/api/esb-light-data?apikey=${REACT_APP_ESBAPIKEY}`);
             const data = await response.json();
             setContent(data.content);
         };
@@ -16,7 +17,6 @@ function ColorDisplay() {
     return (
         <div className="cd-comp">
             <h2>Current Color Scheme</h2>
-
             <div className="color-section">
                 <div className={`color-display ${content ? 'fade-in' : ''}`}>
                     {content ? (
@@ -39,6 +39,11 @@ function ColorDisplay() {
                         <h3>{content ? content.reason : ''}</h3>
                     </div>
                 </div>
+            </div>
+            <div className="button-section">
+                <Link to="/past" className="past-button">
+                    View Past Colors
+                </Link>
             </div>
         </div>
     );

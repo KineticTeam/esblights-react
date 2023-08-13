@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     margin: 0;
-    padding-bottom: 30px;
 
     .content {
         display: flex;
@@ -28,7 +27,6 @@
             flex-direction: column;
             justify-content: flex-start;
             align-self: center;
-            gap: 10px;
             width: $page-width;
 
             a {
