@@ -3,18 +3,15 @@ import React, { useState, useEffect } from "react";
 function PastColorDisplay() {
     const [content, setContent] = useState(null);
     
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const { REACT_APP_ESBAPIKEY } = process.env;
-                const response = await fetch(`https://esblight-api.kinetic.com/api/past-esb-light-data?apikey=${REACT_APP_ESBAPIKEY}`);
-                const data = await response.json();
-                setContent(data.content);
-            } catch (error) {
-                setContent(false);
-            }
-        };
-        fetchData();
+    useEffect(async () => {
+        try {
+            const { REACT_APP_ESBAPIKEY } = process.env;
+            const response = await fetch(`https://esblight-api.kinetic.com/api/past-esb-light-data?apikey=${REACT_APP_ESBAPIKEY}`);
+            const data = await response.json();
+            setContent(data.content);
+        } catch (error) {
+            setContent(false);
+        }
     }, []);
 
     return (
@@ -45,7 +42,7 @@ function PastColorDisplay() {
                         })
                     );
                 })
-            ) : 'Restart the server, or the DB is empty.'}
+            ) : ''}
         </div>
     );
 }

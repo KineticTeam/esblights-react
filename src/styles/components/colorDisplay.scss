@@ -31,7 +31,7 @@
         margin-top: 15px;
         border-radius: 5px;
         overflow: hidden;
-        box-shadow: 0 0 15px hsla(0, 0%, 0%, 0.048);
+        box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.2);
         height: fit-content;
         transition: 
             transform .3s ease, 
@@ -48,7 +48,7 @@
             display: flex;
             flex-direction: row;
             align-items: center;
-            height: $color-display-height * calc(2/3);
+            height: $color-display-height * calc(1/2);
             overflow-x: scroll;
             gap: 0;
 
