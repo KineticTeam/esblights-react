@@ -7,7 +7,7 @@ function PastColorDisplay() {
         const fetchData = async () => {
             try {
                 const { REACT_APP_ESBAPIKEY } = process.env;
-                const response = await fetch(`https://esblight-api.kinetic.com/api/past-esb-light-data?apikey=${REACT_APP_ESBAPIKEY}`);
+                const response = await fetch(`http://localhost:4000/api/past-esb-light-data?apikey=${REACT_APP_ESBAPIKEY}`);
                 const data = await response.json();
                 setContent(data.content);
             } catch (error) {

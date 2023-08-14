@@ -7,15 +7,15 @@
         padding-top: 40px;
 
         .past-button {
-            background-color: $rainbow-blue;
+            background-color: $rainbow-yellow;
             padding: 10px;
             border-radius: 5px;
-            transition: background-color .3s ease, transform .3s ease;
+            transition: filter .3s ease, transform .3s ease;
             color: $white !important;
             width: fit-content;
 
             &:hover {
-                background-color: darken($rainbow-blue, 10%);
+                filter: brightness(0.975);
                 transform: scale(1.025);
             }
 

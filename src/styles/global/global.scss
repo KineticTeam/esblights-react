@@ -34,7 +34,7 @@ h2 {
     font-weight: lighter;
     color: darken($rainbow-blue, 10%);
     margin: 0;
-    line-height: 1.5em;
+    line-height: 1.3em;
 }
 
 h3 {
@@ -42,7 +42,7 @@ h3 {
     font-weight: lighter;
     color: $dark-color;
     margin: 0;
-    line-height: 1.5em;
+    line-height: 1.3em;
 }
 
 p {
@@ -50,7 +50,8 @@ p {
     font-weight: lighter;
     color: $dark-color;
     margin: 0;
-    line-height: 1.5em;
+    line-height: 1.4em;
+    margin-bottom: .75rem;
 }
 
 .fade-in {

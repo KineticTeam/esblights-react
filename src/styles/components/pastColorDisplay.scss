@@ -3,16 +3,19 @@
     flex-direction: row;
     gap: 2rem;
     flex-wrap: wrap;
+    background-color: lighten($rainbow-blue, 15%);
+    border-radius: 1rem;
+    padding: 2rem;
 
     .past-color-card {
+        border-radius: 1rem;
         display: flex;
         flex-direction: column;
-        // width: 250px;
         flex-grow: 1;
         font-size: 1.5rem;
         background-color: $rainbow-blue;
         color: $white;
-        border-radius: .5rem;
+        // border-radius: .5rem;
         overflow: hidden;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -43,6 +46,7 @@
                     color: $white;
                     padding: 3px 7px;
                     width: fit-content;
+                    font-size: 0.75rem;
                 }
             }
         }
