@@ -29,7 +29,7 @@ function Header() {
             className="header"
             style={{
                 opacity: scrollTop > 100 ? 0.8 : 1,
-                height: scrollTop > 100 ? "4.5em" : "7.5em",
+                height: scrollTop > 100 ? "7.5em" : "7.5em",
             }}
         >
             <Link to="/" rel="noreferrer" className="logo">
