@@ -8,15 +8,22 @@
 
         .past-button {
             background-color: $rainbow-yellow;
-            padding: 15px;
+            padding: 10px 30px;
             border-radius: 100px;
-            transition: filter .3s ease, background-color .1s ease;
+            transition: filter .3s ease, background-color .3s ease;
             color: $white !important;
             width: fit-content;
 
             &:hover {
                 background-color: darken($rainbow-yellow, 10%);
                 // transform: scale(1.025);
+                // &::after {
+                //     content: "👈";
+                //     position: absolute;
+                //     // margin-left: 10px;
+                //     // top: 5px;
+                //     // left: 5px;
+                // }
             }
 
             &:active {
