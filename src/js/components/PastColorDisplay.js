@@ -13,6 +13,7 @@ function PastColorDisplay() {
         fetchData();
     }, []);
 
+
     return (
         <div className="past-color-display-section">
             {content ? (
