@@ -4,7 +4,7 @@ function Past() {
     return (
         <div className="past page-padding page-min-height">
             <div className="content">
-                <h2>Past Colors</h2>
+                <h2>Recent Colors</h2>
                 <PastColorDisplay />
             </div>
         </div>
