@@ -38,16 +38,17 @@ function PastColorDisplay() {
                                 <div className="reason">
                                     {color.reason}
                                 </div>
-
-                                color.color !== 'signature white' ? (
+                                {(color.color !== 'signature white') ? (
                                     <div className="dates">
-                                        <br />
-                                        Dates of Appearance:
+                                        <div className="dates">
+                                            <br />
+                                            Dates of Appearance:
+                                        </div>
+                                        <div className="dates">
+                                            {color.dates.join(', ')}
+                                        </div>
                                     </div>
-                                    <div className="dates">
-                                        {color.dates.join(', ')}
-                                    </div>
-                                ) : '')
+                                ) : ''}
                             </div>
                         </div>
 
