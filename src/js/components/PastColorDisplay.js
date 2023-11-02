@@ -15,7 +15,7 @@ function PastColorDisplay() {
 
 
     return (
-        <div className="past-color-display-section">
+        <div className={`past-color-display-section ${content ? 'fade-in' : ''}`}>
             {content ? (
                 content.colorMap.map((color) => {
                     return (
@@ -38,13 +38,16 @@ function PastColorDisplay() {
                                 <div className="reason">
                                     {color.reason}
                                 </div>
-                                <div className="dates">
-                                    <br />
-                                    Dates of Appearance:
-                                </div>
-                                <div className="dates">
-                                    {color.dates.join(', ')}
-                                </div>
+
+                                color.color !== 'signature white' ? (
+                                    <div className="dates">
+                                        <br />
+                                        Dates of Appearance:
+                                    </div>
+                                    <div className="dates">
+                                        {color.dates.join(', ')}
+                                    </div>
+                                ) : '')
                             </div>
                         </div>
 
