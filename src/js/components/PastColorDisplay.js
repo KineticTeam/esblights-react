@@ -38,44 +38,19 @@ function PastColorDisplay() {
                                 <div className="reason">
                                     {color.reason}
                                 </div>
-                                {(color.color !== 'signature white') ? (
+                                <div className="dates">
                                     <div className="dates">
-                                        <div className="dates">
-                                            <br />
-                                            Dates of Appearance:
-                                        </div>
-                                        <div className="dates">
-                                            {color.dates.join(', ')}
-                                        </div>
+                                        <br />
+                                        Last Appearance:
                                     </div>
-                                ) : ''}
+                                    <div className="dates">
+                                        {color.dates[color.dates.length - 1]}
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                    )
-                    // return (
-                    //     Object.keys(content.colorMap[description]).map((reason) => {
-                    //         return (
-                    //             <div className="past-color-card">
-                    //                 <div className="past-colors">
-                    //                     {content.colorMap[description][reason].map((color, index) => {
-                    //                         return (
-                    //                             <div className="past-color" key={index} style={{ backgroundColor: color }}>
-                    //                                 <div className="past-color-hex-code">
-                    //                                     {color}
-                    //                                 </div>
-                    //                             </div>
-                    //                         );
-                    //                     })}
-                    //                 </div>
-                    //                 <div className="past-color-info">
-                    //                     <div className="description">{description}</div>
-                    //                     <div className="reason">{reason}</div>
-                    //                 </div>
-                    //             </div>
-                    //         );
-                    //     })
-                    // );
+                    );
                 })
             ) : ''}
         </div>
