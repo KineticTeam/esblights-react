@@ -6,7 +6,6 @@ function PastColorDisplay() {
     useEffect(() => {
         const fetchData = async () => {
             const { REACT_APP_ESBAPIKEY } = process.env;
-            console.log(REACT_APP_ESBAPIKEY)
             const response = await fetch(`https://esblight-api.kinetic.com/api/past-esb-light-data?apikey=${REACT_APP_ESBAPIKEY}`);
             const data = await response.json();
             setContent(data.content);
