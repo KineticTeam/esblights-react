@@ -11,7 +11,7 @@ function PastColorDisplay() {
 
             // only take the last 10 or if there are less than 10, take all
             data.content.colorMap = data.content.colorMap.slice(Math.max(data.content.colorMap.length - 10, 0));
-            // reverse the array so that the most recent is first
+            // reverse the array so that the most recent is first :)
             data.content.colorMap.reverse();
 
             setContent(data.content);
